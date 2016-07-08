@@ -1,0 +1,297 @@
+@charset "utf-8";
+/*MOSTRAR CANALES*/
+.canal10, .canal20, .canal30, .canal40, .canal50, .canal60, .canal70, .canal80 {display:none;}
+/*MOSTRAR CANALES*/
+@font-face {font-family: "Helvetica Neue Condensed Bold"; src: url("http://1wkk13j6l6x10woor1wh4o7f1l.wpengine.netdna-cdn.com/wp-content/themes/lacide_n/fonts/helveticaneuecondensedbold.ttf") format("truetype");}
+@font-face {font-family: "Bebas Neue"; src: url("http://www.laciudaddeportiva.com/wp-content/themes/lacide_n/fonts/BebasNeue.ttf") format("truetype");}
+body{background:url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/cesped.jpg") repeat fixed 0 0 #00400F;margin:0}
+/*body{background:url("img/pasto.jpg") repeat fixed 0 0 #00400F;margin:0}*/
+#Online { margin: 0 auto; width: 799px; }
+#video{display:table;background:url('http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png') repeat scroll 0 0 transparent;border:0 solid #CCC;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;height:auto;padding-bottom: 10px;width:850px;margin:20px auto}
+#logo{background:none repeat scroll 0 0 #830101;border:1px solid #830101;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;height:360px;margin:15px 10px 15px 15px;width:200px;text-align:center}
+.img_logo{margin:5px;border-radius:5px}
+.img_logo img{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}
+#calendario{background:none repeat scroll 0 0 #830101;border:1px solid #830101;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin:15px 10px 15px 15px;width:200px;text-align:center;color:#fff}
+.tex_calen{font-family:Tahoma;font-size:20px;margin:5px;text-transform:uppercase}
+.img_calen{margin:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.img_calen img{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}
+.content{background:url('http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png') repeat scroll 0 0 rgba(0,0,0,0);border:0 solid #CCC;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;float:right;height:auto;margin:15px 15px 0 0;width:600px}
+.video{background:none repeat scroll 0 0 #000;border:5px solid #830101;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;height:430px;margin:10px auto 5px;width:575px}
+.comentario{background:none repeat scroll 0 0 rgba(0,0,0,0);border:0 solid #CCC; margin:20px auto 5px;width:575px;height: 335px;}
+.tex_comen{/*background:none repeat scroll 0 0 #3B5998;*/ background:none repeat scroll 0 0 #831010;-webkit-border-top-left-radius:10px;-webkit-border-top-right-radius:10px;-moz-border-radius-topleft:10px;-moz-border-radius-topright:10px;border-top-left-radius:10px;border-top-right-radius:10px;color:#FFF;font-family:Verdana;font-size:20px;font-weight:700;padding:5px;text-align:center;text-transform:uppercase}
+#game{background:url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);border:0px solid #E4E3E3;border-radius:20px;color:#CC0303;float:right;font-weight:700;height:200px;margin:15px 15px 0 0;padding:12px 0;text-align:center;width:600px}
+#advertencia{background:url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png") repeat scroll 0 0 rgba(0, 0, 0, 0);border:0px solid #E4E3E3;border-radius:20px;color:#CCBD00;float:right;font-weight:700;height:60px;margin:15px 15px 0 0;padding:12px 0;text-align:center;width:600px;font-size: 20px;}
+.tex_game{display: none;font-family:Tahoma;font-size:20px;text-transform:uppercase}
+.img_game{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.img_game img{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px}
+.advertencia {background: url("img/adv.png") no-repeat scroll 15px center rgba(0, 0, 0, 0);padding: 5px 5px 5px 75px;text-align: left; font-family:'Helvetica Neue Condensed Bold', Helvetic, Arial;}
+#lateral{padding-top:1px;width:200px}
+#disqus_thread{background:url('http://toxigeek.com/wp-content/themes/toxigeek-lite/images/thin_top.png') repeat-x scroll 0 0 #FFF;-webkit-border-bottom-right-radius:10px;-webkit-border-bottom-left-radius:10px;-moz-border-radius-bottomright:10px;-moz-border-radius-bottomleft:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;margin:0 auto 10px;padding:10px;width:555px}
+#audioplayer_1 {height:1px;width:1px}
+.social {background: url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png") repeat scroll 0 0 rgba(0, 0, 0, 0); -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px; margin: 0 auto; padding: 15px 10px 15px; width: 500px; text-align: center;}
+.imgGame{padding-top: 1px;background: url("../images/GameAplicacion.png") repeat-x scroll 0 0 / 71px 51px rgba(0, 0, 0, 0); /*position: absolute;*/ text-align: right;-webkit-border-bottom-right-radius: 10px;-moz-border-radius-bottomright: 10px;border-bottom-right-radius: 10px; height: 51px; width: 575px;}
+#f-Facebook{position:fixed;top:100px;right:-250px;float:right;width:288px;display:block;padding:0;z-index: 999;-moz-transition:all 1s;-webkit-transition:all 1s;-o-transition:all 1s}
+.f-Facebook{background: #3c5a98; height:325px; margin-left:38px;padding: 8px 5px 0pt 50px;border-radius: 0px 0px 0px 10px;}
+#f-Facebook:hover{right:0;-moz-transition:all 1s;-webkit-transition:all 1s;-o-transition:all 1s}div.likeboxwrap{margin-top:-5px;margin-left:-45px;width:238px;height:325px;background-color:#fff;overflow:hidden;border-radius:10px}
+.SoyDiablo {background: none repeat scroll 0 0 #830101;border: 5px solid #830101;border-radius: 10px 10px 10px 10px;height: 200px;margin: 10px; width: 200px;}
+.foto {position: relative;top: -30px;}
+#tomatelafoto {display: none; left: 35%;position: fixed;top: 15%;}
+.GameCanal {height: 30px;margin: 15px auto 0;text-align: center;width: 570px;}
+.GameCanal a {font-family: Arial;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background: none repeat scroll 0 0 #990000;color: #FFFFFF;font-size: 12px;font-weight: 700;margin: 5px 3px;padding: 4px; text-decoration: none;border: 3px solid #540000;}
+.GameCanal a:hover, .GameCanal a:active {color:#FFF;position:relative; top:1px;background: none repeat scroll 0 0 #0180CF !important;border: 3px solid #F4F4F4 !important;color: #FFFCFC !important;}
+.canalActive {background: none repeat scroll 0 0 #0180CF !important;border: 3px solid #F4F4F4 !important;color: #FFFCFC !important;}
+.PhotoDiablo {height: 220px; width: 220px;}
+/*#video {display: none;}*/
+#carga-post {height: 150px;left: 35%;margin: 0 auto;padding-top: 15%;position: fixed;text-align: center;width: 400px;}
+.textloading {color: #FFFFFF;font-size: 20px;margin: 40px auto 0;width: 310px;}
+/* STYLE PAGE PRONCIPAL */
+a img, a{border:0 none;text-decoration:none;color:#fff}
+#bodyeltolucaesmipasion a:hover,#bodyeltolucaesmipasion a:active,#bodyeltolucaesmipasion a:focus{top:1px;position:relative}
+#Online{margin:0 auto;width:799px}
+#eltolucaesmipasion {display: block; margin: 0 auto;width: 1200px;}
+.logo{background:url('http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/logo.png') no-repeat scroll 0 0 rgba(0,0,0,0);height:500px;margin:30px auto 0;width:500px}
+.menu{text-align: center;background:url('http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fon.png') repeat scroll 0 0 transparent;height:150px;margin-top:3%;width:100%}
+.menu ul{padding-top:20px}
+/*.menu li{list-style: none outside none;float:left;margin-left:3%;margin-right:3%}*/
+.menu li {font-size: 80px;list-style: none outside none;margin: 10px auto;padding: 10px;display:none;font-family: 'Bebas Neue','Helvetica Neue',Helvetica, sans-serif;line-height: 1em;color: #ffffff;text-transform: uppercase;text-shadow: -1px -1px #666666, 1px 1px #FFFFFF;}
+.miembros{width: 1080px;color:#FFF;font-family:Helvetica;font-size:12px;font-weight:700;height:10px;margin:0 auto;text-align:center;}
+.miembros li {float: left; list-style: none outside none;margin-right: 5px;}
+.miembros > ul > li:last-child:after {content: none;}
+.miembros > ul > li:after {content: "•";}
+a.tooltips{font-family: Helvetica Neue Condensed Bold;font-size: 14px;position:relative;display:inline}
+a.tooltips span{position:absolute;width:130px;color:#000;background:#FFF;height:130px;line-height:100px;text-align:center;visibility:hidden;border-radius:6px;box-shadow:0 0 5px;padding:5px}
+a.tooltips span:after{content:'';position:absolute;top:100%;left:50%;margin-left:-8px;width:0;height:0;border-top:8px solid #FFF;border-right:8px solid transparent;border-left:8px solid transparent}
+a:hover.tooltips span{visibility:visible;opacity:.9;bottom:30px;left:50%;margin-left:-76px;z-index:999}
+a.tooltips.game span{height:74px;width: 111px;}
+a.tooltips.game span:after{border-bottom: 8px solid #FFFFFF;border-top: 0px solid #FFFFFF;bottom: 100%;top: auto;}
+a:hover.tooltips.game span{top: 30px;bottom: 0;}
+span.imagepage img {margin: 0; float:none;} 
+#audioplayer_1 {height:1px;width:1px}
+/* EFECTO LOADING */
+#carga-post {height: 150px;left: 35%;margin: 0 auto;padding-top: 15%;position: fixed;text-align: center;width: 400px;}
+.textloading {color: #FFFFFF;font-size: 20px;margin: 40px auto 0;width: 310px;}
+#bowlG {height: 100px;margin: 0 auto;position: relative;width: 100px;}
+#bowl_ringG{position:absolute;width:100px;height:100px;border:9px solid #FFFFFF;-moz-border-radius:100px;-webkit-border-radius:100px;-ms-border-radius:100px;-o-border-radius:100px;border-radius:100px;}
+.ball_holderG{position:absolute;width:27px;height:100px;left:37px;top:0px;-moz-animation-name:ball_moveG;-moz-animation-duration:3.2s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:linear;-webkit-animation-name:ball_moveG;-webkit-animation-duration:3.2s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;-ms-animation-name:ball_moveG;-ms-animation-duration:3.2s;-ms-animation-iteration-count:infinite;-ms-animation-timing-function:linear;-o-animation-name:ball_moveG;-o-animation-duration:3.2s;-o-animation-iteration-count:infinite;-o-animation-timing-function:linear;animation-name:ball_moveG;animation-duration:3.2s;animation-iteration-count:infinite;animation-timing-function:linear;}
+.ballG{position:absolute;left:0px;top:-23px;width:40px;height:40px;background:#F50C0C;-moz-border-radius:33px;-webkit-border-radius:33px;-ms-border-radius:33px;-o-border-radius:33px;border-radius:33px;}
+@-moz-keyframes ball_moveG{ 0%{ -moz-transform:rotate(0deg)} 100%{ -moz-transform:rotate(360deg)}}
+@-webkit-keyframes ball_moveG{ 0%{ -webkit-transform:rotate(0deg)} 100%{ -webkit-transform:rotate(360deg)}}
+@-ms-keyframes ball_moveG{ 0%{ -ms-transform:rotate(0deg)} 100%{ -ms-transform:rotate(360deg)} }
+@-o-keyframes ball_moveG{ 0%{ -o-transform:rotate(0deg)} 100%{ -o-transform:rotate(360deg)}}
+@keyframes ball_moveG{ 0%{transform:rotate(0deg)} 100%{transform:rotate(360deg)}}
+#main_header {height: 55px;margin: 0 auto;width: 1105px;}
+.encabezado-principal {background: url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/fonh.png") repeat scroll 0 0 rgba(0, 0, 0, 0);height: 55px;position: fixed;width: 1105px;z-index: 10;top:0;-webkit-border-bottom-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+.encabezado-principal img {float: left;height: 106px; margin: 0 0 0 30px;width: 101px;}
+.encabezado-principal img.logotol {-moz-transition: all 0.8s ease-in-out;-webkit-transition: all 0.8s ease-in-out;-o-transition: all 0.8s ease-in-out;-ms-transition: all 0.8s ease-in-out;transition: all 0.8s ease-in-out;}
+.encabezado-principal img.logotol:hover { -moz-transition: all 0.5s ease-in-out;-webkit-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;-ms-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;-moz-transform: rotate(-360deg);-webkit-transform: rotate(-360deg);-o-transform: rotate(-360deg);-ms-transform: rotate(-360deg);transform: rotate(-360deg);}
+.encabezado-principal a:hover, .encabezado-principal a img:hover {position:relative;top:1px;}
+.encabezado-principal .hgroup {color: #FFFFFF;float: left;margin: 7.5px 0 0 20px;text-align: left;width: 250px;}
+.header-nav {float: left;height: 55px;margin: 20px 0 0 80px;}
+.header-nav > ul {float: left;height: 55px;list-style: none outside none;margin: 0;padding: 0;}
+.header-nav > ul > li:after {color: #FFFFFF;content: "/";margin: 0 5px;}
+.header-nav > ul > li {float: left; height: 55px;}
+.header-nav > ul > li > a {color: #FFFFFF;font-family: Helvetica Neue Condensed Bold;font-size: 15px;text-transform: uppercase;}
+.header-nav > ul > li:last-child:after {content: none;}
+.header-nav > ul > li > a:hover {color: #FF0000;}
+.encabezado-principal-rs {float: left;height: 28px;margin: 15px 0 0 60px; width: 160px;}
+.encabezado-principal-rs-twitter, .encabezado-principal-rs-facebook, .encabezado-principal-rs-google, .encabezado-principal-rs-youtube, .encabezado-principal-rs-pinterest {background-image: url("http://scripts-giobanii.googlecode.com/svn/trunk/Toluca/images/btnHeaderRedes.png");background-position: -2px 0;cursor: pointer;float: left;height: 28px;margin: 0 0 0 4px;width: 28px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.encabezado-principal-rs-twitter:hover {background-position: -32px 0;}
+.encabezado-principal-rs-facebook {background-position: -64px 0;}
+.encabezado-principal-rs-facebook:hover {background-position: -94px 0;}
+.encabezado-principal-rs-google {background-position: -128px 0;}
+.encabezado-principal-rs-google:hover {background-position: -158px 0;}
+.encabezado-principal-rs-youtube {background-position: -192px 0;}
+.encabezado-principal-rs-youtube:hover {background-position: -222px 0;}
+.encabezado-principal-rs-pinterest {background-position: -254px 0;}
+.encabezado-principal-rs-pinterest:hover {background-position: -284px 0;}
+.somos {color: rgb(255, 255, 255); font-size: 20px; padding: 20px !important; margin: 50px auto !important;font-family: Helvetica Neue Condensed Bold;}
+.somos a.tooltips {font-size: 20px;}
+a:hover {color: #FF0000; text-decoration:none !important;}
+.gradiente {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	width: 100%;
+	height: 100%;
+	background: green;
+	background: -webkit-radial-gradient(ellipse at center, rgba(255,255,255,.05) 0%,rgba(0,0,0,0.6) 90%) !important;
+	background: -moz-radial-gradient(ellipse at center, rgba(255,255,255,.05) 0%,rgba(0,0,0,0.6) 90%) !important;
+	background: -o-radial-gradient(ellipse at center, rgba(255,255,255,.05) 0%,rgba(0,0,0,0.6) 90%) !important;
+	background: -ms-radial-gradient(ellipse at center, rgba(255,255,255,.05) 0%,rgba(0,0,0,0.6) 90%) !important;
+	background: radial-gradient(ellipse at center, rgba(255,255,255,.05) 0%,rgba(0,0,0,0.6) 90%) !important;
+	background: -webkit-radial-gradient(center,120% 150%,rgba(255,255,255,.05),rgba(0,0,0,0.6),#aaa);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255,255,255,.05)', endColorstr='rgba(0,0,0,0.6)',GradientType=1 );
+	height: 100%;
+}
+
+#cargando {background: url("img/cargar.png") no-repeat scroll 0 0 transparent; width:575px; height:380px; position: absolute; top: 52px;}
+#floatingCirclesG{
+position:relative;
+width:128px;
+height:128px;
+left: 230px;
+top: 100px;
+-moz-transform:scale(0.6);
+-webkit-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
+}
+
+.f_circleG{
+position:absolute;
+background-color:#FFFFFF;
+height:23px;
+width:23px;
+-moz-border-radius:12px;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:1.04s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:12px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:1.04s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:12px;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:1.04s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:12px;
+-o-animation-name:f_fadeG;
+-o-animation-duration:1.04s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:12px;
+animation-name:f_fadeG;
+animation-duration:1.04s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#frotateG_01{
+left:0;
+top:52px;
+-moz-animation-delay:0.39s;
+-webkit-animation-delay:0.39s;
+-ms-animation-delay:0.39s;
+-o-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+
+#frotateG_02{
+left:15px;
+top:15px;
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#frotateG_03{
+left:52px;
+top:0;
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+#frotateG_04{
+right:15px;
+top:15px;
+-moz-animation-delay:0.78s;
+-webkit-animation-delay:0.78s;
+-ms-animation-delay:0.78s;
+-o-animation-delay:0.78s;
+animation-delay:0.78s;
+}
+
+#frotateG_05{
+right:0;
+top:52px;
+-moz-animation-delay:0.91s;
+-webkit-animation-delay:0.91s;
+-ms-animation-delay:0.91s;
+-o-animation-delay:0.91s;
+animation-delay:0.91s;
+}
+
+#frotateG_06{
+right:15px;
+bottom:15px;
+-moz-animation-delay:1.04s;
+-webkit-animation-delay:1.04s;
+-ms-animation-delay:1.04s;
+-o-animation-delay:1.04s;
+animation-delay:1.04s;
+}
+
+#frotateG_07{
+left:52px;
+bottom:0;
+-moz-animation-delay:1.17s;
+-webkit-animation-delay:1.17s;
+-ms-animation-delay:1.17s;
+-o-animation-delay:1.17s;
+animation-delay:1.17s;
+}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-moz-animation-delay:1.3s;
+-webkit-animation-delay:1.3s;
+-ms-animation-delay:1.3s;
+-o-animation-delay:1.3s;
+animation-delay:1.3s;
+}
+
+@-moz-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-webkit-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-ms-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-o-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+} - See more at: http://cssload.net/#sthash.v2rhGPza.dpuf
