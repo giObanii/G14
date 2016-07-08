@@ -1,0 +1,94 @@
+<script type="text/javascript" src="https://scripts-giobanii.googlecode.com/svn/trunk/js/bbcode.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('textarea#informacionpost').bbcode();
+});
+</script>
+<script type="text/javascript">
+var auth1;
+var auth2;
+$(function () {
+//ID del foro donde queremos que se cree el tema
+var id_foro = 4;
+$("#hidden").load("/post?f="+$("#idforum").val()+"&mode=newtopic form[action='/post']");
+});
+
+function enviarMensaje(form) {
+  // Crear mensaje a partir de los datos suministrados
+  var txt_message = '[center][img]' +form.imagenpost.value+ '[/img]\n\n' + form.informacionpost.value + '\n\n' + form.capturaspost.value + '\n\n\n' + '[b]Download links:[/b]\n\n' + form.descargapost.value + '[/center]\n\n';
+
+if (form.passpost.value != "") {
+txt_message += "[center][b]Password[/b]\n";
+txt_message += form.passpost.value;
+txt_message += "[/center]\n";
+};
+	
+
+// Ahora se insertará todo lo que hayamos metido en el formulario
+form.message.value = txt_message;
+$("#hidden").find("input[name='auth[]']").each(function (index) {
+    if (index == 0) auth1 = $(this).attr("value");
+    if (index == 1) auth2 = $(this).attr("value");
+});
+$("input#auth1").attr("value", auth1);
+$("input#auth2").attr("value", auth2);              
+$("#titulo").val($("#titulopost").val());
+
+};
+</script>
+<div class="main">
+<div class="main-head clearfix">
+	<p class="h2">Post a new topic</p>
+</div>
+<div class="main-content frm">
+<div id="postgen" style="margin:0 auto 50px;">
+<div id="hidden" style="display:none"></div>
+<form action="/post" method="post" name="post" enctype="multipart/form-data" onSubmit="enviarMensaje(this)" target="_parent">
+<input type="hidden" name="lt" value="0" />
+<input type="hidden" name="mode" value="newtopic" />
+<input id="auth1" type="hidden" value="" name="auth[]">
+<input id="auth2" type="hidden" value="" name="auth[]">
+                <!-- Se creará un nuevo tema automaticamente con la información suministrada -->
+<input type="hidden" name="topictype" value="0" checked="checked" />
+                <!-- Value 0: Tema Normal (1=p ost-it / 2=A nuncio) -->
+<input type="hidden" name="message" value="" />
+                <!-- Contendra el texto del mensaje -->
+<div class="req1" style="text-align: center;margin-top: 10px;"><strong>SELECT FORUM</strong>
+<div><select name="f" id="idforum" class="inputboxpg" style="border: 1px dashed #F20B0B;cursor: pointer;font-weight: 600;margin: 10px 0;padding: 10px;width: 250px;">
+<option selected="selected" value="4">Clips/Short Movies</option>
+<option value="5">High Definition Videos</option>
+<option value="1">Full Movies</option>
+<option value="3">Full Siterip</option>
+</select></div>
+</div>
+<!-- ID del subforo donde queremos que se cree el tema-->
+<input type="hidden" name="subject" id="titulo" value="" class="USERNAME" />
+
+<div class="req1"><strong>Title:</strong>
+<div><input id="titulopost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div class="req1"><strong>Main Image URL:</strong>
+<div><input id="imagenpost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div class="req1"><strong>Description:</strong>
+<br />
+<br />
+<div><textarea id="informacionpost" cols="50" rows="4" class="inputboxpg">
+</textarea></div>
+</div>
+<div class="req1"><strong>Screenshots:</strong>
+<div><textarea id="capturaspost" cols="50" rows="2" class="inputboxpg">[url=][img][/img][/url]</textarea></div>
+</div>
+<div class="req1"><strong>Download Links:</strong>
+<div><textarea id="descargapost" cols="50" rows="2" class="inputboxpg">
+</textarea></div>
+</div>
+<div class="req1"><strong>Password (optional):</strong>
+<div><input id="passpost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div style="display: none;font-size:10px;margin-top:10px;text-align: center;">Powered by <a href="http://toxigeek.com">giObanii</a></div>
+<br><div style="text-align: center;"><input type="submit" title="Enviar" value="Send Post" id="bpostgenpgm" name="post" class="buttonpg1" style="width: 450px; height: 50px; font-size: 20px;font-weight:bold;"></div>
+</form>
+</div>
+</div>
+</div>

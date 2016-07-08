@@ -1,0 +1,155 @@
+body {
+    background-color: #FAD9EA;
+    margin: auto;
+    width: 100%;
+}
+
+.post, #pun-about, #pun-info {display: none;}
+
+.pun a:link {
+    text-decoration: none;
+}
+.pun {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #F591B6;
+    border-radius: 6px 6px 6px 6px;
+    line-height: 130%;
+    margin: 10px auto;
+    min-width: 768px;
+    padding: 10px;
+    width: 1000px;
+}
+
+.main .main-foot, .main .main-head {
+    color: #FF3399;
+    font-weight: 400;
+}
+
+.pun .paged-foot, .pun .paged-head {
+    background-color: transparent;
+    border: medium none;
+    padding: 0.6em 1.3em 0.3em;
+}
+
+.main .main-head {
+    background-image: url("http://i49.tinypic.com/2j4ssva.jpg");
+    border-left: 1px solid #F591B6;
+    border-right: 1px solid #F591B6;
+    border-top: 1px solid #F591B6;
+}
+
+.main .main-head .page-title h2 {
+    font-weight: bold !important;
+}
+
+#pun-navlinks {
+    background: url("http://img.pornbb.org/images/nav_bg.png") repeat-x scroll 0 0 #FCC4DA !important;
+    border: 1px solid #F990B8  !important;
+    color: #525252  !important; 
+    font-size: 11px;
+    margin-bottom: 10px;
+    padding: 4px 0;
+}
+
+#pun-intro {
+    background-color: transparent;
+      background-image: url("http://i46.tinypic.com/709vle.jpg");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #FEDFEB;
+    height: 180px;
+    margin: 0;
+    padding: 1.5em 1em 1em;
+    text-align: center;
+}
+#pun-desc {margin: 30px 0 0 450px;}
+.entry-content img {max-width: 500px;}
+
+.lightbox img {
+    border: 7px solid #F5F4F4;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 1px 5px #5B5A5A;
+    max-width: 500px;
+}
+
+.pun .main-foot .options a, .pun .main-foot .options a:link, .pun .main-foot .options a:visited {
+    color: #FF3399;
+}
+
+img.lightbox_show {cursor: url("http://scripts-giobanii.googlecode.com/svn/trunk/css/images/default/zoomin.cur"), pointer !important;}
+.jquery-lightbox-background img {cursor: url("http://scripts-giobanii.googlecode.com/svn/trunk/css/images/default/zoomout.cur"), pointer !important;}
+.avatar-index, .avatar-subforo{ float: left; }
+.avatar-index img {-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;width: 35px; height: 35px; padding: 1px; background: none repeat scroll 0 0 #FEDFEB;border: 1px solid #F591B6; margin: 5px; }
+.avatar-subforo img {background: none repeat scroll 0 0 #FEDFEB;border: 1px solid #F591B6;height: 20px;margin: -7px 5px 5px;padding: 1px;width: 20px;}
+
+.user-info {
+    background: none repeat scroll 0 0 #FEECF3;
+    border: 1px solid #FDBFD7;
+    border-radius: 5px 5px 5px 5px;
+    color: #525252 !important;
+    font-size: 10px;
+    padding: 4px;
+    text-align: left;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.rank {margin-bottom: 7px;margin-top: 5px;color: #181818;}
+.user-basic-info a[href*="/u"] img {
+    border: 1px solid #F591B6;
+    border-radius: 5px 5px 5px 5px;
+    height: 100px;
+    margin-bottom: 7px;
+    padding: 4px;
+    width: 100px;
+  
+}
+.post .user .user-ident {
+    text-align: center;
+}
+
+.post .user-ident {
+    background: none repeat scroll 0 0 #FEECF3;
+    border: 1px solid #FDBFD7;
+    border-radius: 10px 10px 10px 10px;
+    color: #666666;
+    font-size: 11px !important;
+    font-weight: 700;
+    padding: 5px 0 !important;
+    text-align: center !important;
+    width: 160px;
+   margin: 5px auto;
+  
+}
+.post .user {
+    display: inline;
+    padding: 5px 0;
+}
+
+.enlinea {
+    float: right !important;
+}
+
+#username_reg.not-available {color: #a90c0c;}
+#username_reg.available {color: #2f9122;}
+.not-available-username, .available-username{display: none;}
+#username_bad {background: url("http://illiweb.com/fa/p_strength/pwd_bad.png") repeat scroll 0 0 transparent;}
+#username_good {background: url("http://illiweb.com/fa/p_strength/pwd_good.png") repeat scroll 0 0 transparent;}
+/*
+form#form_confirm .frm-set dl:nth-child(4), form#form_confirm .frm-set dl:nth-child(5), form#form_confirm .frm-set dl:nth-child(6), form#form_confirm .frm-set dl:nth-child(7), form#form_confirm .frm-set dl:nth-child(8), form#form_confirm .frm-set dl:nth-child(9), form#form_confirm .frm-set dl:nth-child(10), form#form_confirm .frm-set dl:nth-child(11), form#form_confirm .frm-set dl:nth-child(13), .frm-set #resultados {display: none !important;}
+*/
+
+#postgenheader {-webkit-border-top-left-radius: 7px;-webkit-border-top-right-radius: 7px;-moz-border-radius-topleft: 7px;-moz-border-radius-topright: 7px;border-top-left-radius: 7px;border-top-right-radius: 7px;text-shadow: 1px 2px 1px #000000;color: #FFFFFF;background: none repeat scroll 0 0 #FF3399;font-size: 13px;font-weight: 700;height: 15px;padding: 7px;width: 720px;}
+#postgen {background:#FFEBF3;border:1px solid #F591B6;color:#000000;min-height:50px;padding: 15px 0 15px 30px;width: 702px;}
+textarea#capturaspost, textarea#descargapost, textarea#informacionpost, textarea#descripcionnew {width: 100%;}
+.req1 {margin-bottom: 10px;width: 92%;}
+.req1 strong {font-size: 15px;}
+input.inputboxpg,textarea.inputboxpg{font-family:"Segoe UI",Tahoma,Geneva,sans-serif;-moz-border-radius:2px 2px 2px 2px;border:1px solid #8D9AAC;}
+input.inputboxpg{width:100%;}
+.inputboxpg{font-size: 15px !important;background-color:#FFF;border-color:#B4BAC0;color:#333}
+.inputboxpg{background-color:#FFF;border:1px solid #C0C0C0;color:#333;cursor:text;padding:5px}
+input.buttonpg1,input.buttonpg2{padding:4px 15px;font-weight:bold;background: #FF3399;border-top: 1px solid #B04083;border-right: 1px solid #A32E83;border-bottom: 1px solid #9A207D;border-left: 1px solid #A32E83;-moz-border-radius: 16px;-webkit-border-radius: 16px;border-radius: 16px;-moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;-webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;color: #fff;font-family: "lucida grande", sans-serif;font-weight: normal;line-height: 1;text-align: center;text-shadow: 0 -1px 1px #3275bc;-webkit-background-clip: padding-box;}
+input.buttonpg1:hover,input.buttonpg2:hover{background: #F22289;-moz-box-shadow: inset 0 1px 0 0 #62b1e9;-webkit-box-shadow: inset 0 1px 0 0 #62b1e9;cursor: pointer;text-shadow: 0 -1px 1px #1d62ab;-webkit-background-clip: padding-box;}
+.imgcolexp{float:right;width:25px;cursor:pointer;margin-top: -3px;}
+.pun .frm div.posting-block dd.frm-textarea {
+    width: 733px;
+}

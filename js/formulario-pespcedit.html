@@ -1,0 +1,113 @@
+<script type="text/javascript">
+var auth1;
+var auth2;
+$(function () {
+//ID del foro donde queremos que se cree el tema
+var id_foro = 4;
+$("#hidden").load("/post?f="+$("#idforum").val()+"&mode=newtopic form[action='/post']");
+});
+
+function enviarMensaje(form) {
+  // Crear mensaje a partir de los datos suministrados
+var txt_message = '[center]' +form.imagenpost.value+ '[/center]\n\n' + '[center][img]http://goo.gl/MSJLm[/img][/center]\n\n[center]' + form.informacionpost.value + '[/center]\n\n';
+
+if (form.capturaspost.value != "") {
+txt_message += "[center][img]http://goo.gl/bdzs9[/img][/center]\n\n[center]";
+txt_message += form.capturaspost.value;
+txt_message += "[/center]\n\n";
+};
+
+if (form.videopost.value != "") {
+txt_message += "[center][img]http://goo.gl/TWR3V[/img][/center]\n[center][youtube]";
+txt_message += form.videopost.value;
+txt_message += "[/youtube][/center]\n\n";
+};
+
+if (form.descargapost.value != "") {
+txt_message += "[center][img]http://goo.gl/U3GDw[/img][/center]\n\n[center]";
+txt_message += form.descargapost.value;
+txt_message += "[/center]\n";
+};
+
+if (form.passpost.value != "") {
+txt_message += "[b]Password[/b]\n";
+txt_message += form.passpost.value;
+txt_message += "\n";
+};
+	
+
+// Ahora se insertará todo lo que hayamos metido en el formulario
+form.message.value = txt_message;
+$("#hidden").find("input[name='auth[]']").each(function (index) {
+    if (index == 0) auth1 = $(this).attr("value");
+    if (index == 1) auth2 = $(this).attr("value");
+});
+$("input#auth1").attr("value", auth1);
+$("input#auth2").attr("value", auth2);              
+$("#titulo").val($("#titulopost").val());
+
+};
+</script>
+
+<div id="postgen" style="margin:0 auto 50px;">
+<div id="hidden" style="display:none"></div>
+<form action="/post" method="post" name="post" enctype="multipart/form-data" onSubmit="enviarMensaje(this)" target="_parent">
+<input type="hidden" name="lt" value="0" />
+<input type="hidden" name="mode" value="newtopic" />
+<input id="auth1" type="hidden" value="" name="auth[]">
+<input id="auth2" type="hidden" value="" name="auth[]">
+                <!-- Se creará un nuevo tema automaticamente con la información suministrada -->
+<input type="hidden" name="topictype" value="0" checked="checked" />
+                <!-- Value 0: Tema Normal (1=p ost-it / 2=A nuncio) -->
+<input type="hidden" name="message" value="" />
+                <!-- Contendra el texto del mensaje -->
+<select name="f" id="idforum" class="inputboxpg" style="margin: 10px 0 10px 30%;">
+<option selected="selected" value="6">Parches completos</option>
+<option value="41">Equipaciones</option>
+<option value="42">Caras</option>
+<option value="43">Botas</option>
+<option value="44">Balones</option>
+<option value="45">Estadios</option>
+<option value="46">Gráficos</option>
+<option value="47">Audio/vídeo</option>
+<option value="48">Herramientas</option>
+<option value="48">Tutoteca</option>
+<option value="52">Parches FIFA13</option>
+<option value="53">Herramientas FIFA 13</option>
+<option value="55">Graficos FIFA 13</option>
+<option value="54">Marcadores FIFA 13</option>
+<option value="56">Caras FIFA 13</option>
+<option value="57">Banderas FIFA 13</option>
+<option value="58">Balones FIFA 13</option>
+</select>
+               <!-- ID del subforo donde queremos que se cree el tema-->
+<input type="hidden" name="subject" id="titulo" value="" class="USERNAME" />
+
+<div class="req1"><strong>Titulo:</strong>
+<div><input id="titulopost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div class="req1"><strong>URL Imagen Principal:</strong>
+<div><textarea id="imagenpost" cols="50" rows="1" class="inputboxpg">[img][/img]</textarea></div>
+</div>
+<div class="req1"><strong>Descripcion del post:</strong>
+<div><textarea id="informacionpost" cols="50" rows="5" class="inputboxpg">
+</textarea></div>
+</div>
+<div class="req1"><strong>Screenshots:</strong>
+<div><textarea id="capturaspost" cols="50" rows="2" class="inputboxpg">[img][/img]</textarea></div>
+</div>
+<div class="req1"><strong>URL Video [Youtube]:</strong>
+<div><input id="videopost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div class="req1"><strong>Links de Descarga:</strong>
+<div><textarea id="descargapost" cols="50" rows="5" class="inputboxpg">
+</textarea></div>
+</div>
+<div class="req1"><strong>Contraseña (Si tiene):</strong>
+<div><input id="passpost" value="" maxlength="255" size="255" type="text" class="inputboxpg"/></div>
+</div>
+<div style="font-size:10px;margin-top:10px;text-align: center;">Powered by <a href="http://toxigeek.com">giObanii</a></div>
+<br><div style="text-align: center;"><input type="submit" title="Enviar" value="Enviar" id="bpostgenpgm" name="post" class="buttonpg1" style="width: 450px; height: 50px; font-size: 20px;font-weight:bold;"></div>
+</form>
+</div>
+

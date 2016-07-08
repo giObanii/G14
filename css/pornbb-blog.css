@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#postgenheader {-webkit-border-top-left-radius: 7px;-webkit-border-top-right-radius: 7px;-moz-border-radius-topleft: 7px;-moz-border-radius-topright: 7px;border-top-left-radius: 7px;border-top-right-radius: 7px;text-shadow: 1px 2px 1px #000000;color: #FFFFFF;background: none repeat scroll 0 0 #FF3399;font-size: 13px;font-weight: 700;height: 15px;padding: 7px;width: 720px;}
+#postgen {background:#FFEBF3;border:1px solid #F591B6;color:#000000;min-height:50px;padding: 15px 0 15px 30px;width: 702px;}
+textarea#capturaspost, textarea#descargapost, textarea#informacionpost, textarea#descripcionnew {width: 100%;}
+.req1 {margin-bottom: 10px;width: 92%;}
+.req1 strong {font-size: 15px;}
+input.inputboxpg,textarea.inputboxpg{font-family:"Segoe UI",Tahoma,Geneva,sans-serif;-moz-border-radius:2px 2px 2px 2px;border:1px solid #8D9AAC;}
+input.inputboxpg{width:100%;}
+.inputboxpg{font-size: 15px !important;background-color:#FFF;border-color:#B4BAC0;color:#333}
+.inputboxpg{background-color:#FFF;border:1px solid #C0C0C0;color:#333;cursor:text;padding:5px}
+input.buttonpg1,input.buttonpg2{padding:4px 15px;font-weight:bold;background: #FF3399;border-top: 1px solid #B04083;border-right: 1px solid #A32E83;border-bottom: 1px solid #9A207D;border-left: 1px solid #A32E83;-moz-border-radius: 16px;-webkit-border-radius: 16px;border-radius: 16px;-moz-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;-webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 2px 0 #b3b3b3;color: #fff;font-family: "lucida grande", sans-serif;font-weight: normal;line-height: 1;text-align: center;text-shadow: 0 -1px 1px #3275bc;-webkit-background-clip: padding-box;}
+input.buttonpg1:hover,input.buttonpg2:hover{background: #F22289;-moz-box-shadow: inset 0 1px 0 0 #62b1e9;-webkit-box-shadow: inset 0 1px 0 0 #62b1e9;cursor: pointer;text-shadow: 0 -1px 1px #1d62ab;-webkit-background-clip: padding-box;}
+.imgcolexp{float:right;width:25px;cursor:pointer;margin-top: -3px;}
