@@ -1,0 +1,114 @@
+
+/* -------------
+ * Selects
+ * ------------- */
+.SkinSelectorWrapper {
+    /* Size & position */
+    width: 138px !important;
+    margin: 0 auto;
+    padding: 8px 10px;
+    color: #000000;
+    /* Styles */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+ -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.SkinSelectorWrapper div span {
+	font-size: 14px;
+	float: none;
+	white-space: nowrap;
+	height: 31px;
+	line-height: 15px;
+	overflow: hidden;
+	cursor:pointer;
+	/*border: 1px solid #CCCCCC;*/
+/*	border-right: none;*/
+}
+
+.SkinSelectorWrapper  a.SkinSelectorOpen {
+    display: block;
+    height: 31px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+	border: 0 none;
+    width: 31px;
+	background: url('img/select_right.gif') no-repeat center center;
+}
+
+.SkinSelectorWrapper ul {
+	position: absolute;
+	width: 158px !important;
+	top: 27px;
+	left: 0px;
+	background-color: #FFF;
+    border-radius: 0 0 5px 5px;
+    border: 0px solid rgba(0,0,0,0.2);
+    list-style: none;
+	display: none;
+	padding: 0px;
+	height: auto !important;
+	overflow: hidden;
+	z-index:10;
+	margin: 0;
+  -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.SkinSelectorWrapper li {
+padding: 0 10px;
+}
+
+.SkinSelectorWrapper ul a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    transition: all 0.3s ease-out;
+    border-top: 1px solid #e6e8ea;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.SkinSelectorWrapper ul li:hover a {
+    color: #57a9d9;
+}
+
+.SkinSelectorWrapper ul a.selected {
+    background: none repeat scroll 0 0 transparent;
+    color: grey;
+	display: none;
+}
+
+.SkinSelectorWrapper ul a:hover, .SkinSelectorWrapper ul a.selected:hover {
+    background: none repeat scroll 0 0 transparent;
+}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.SkinSelectorHidden {display: none;}
+
+.icon-skin {
+    border: 1px solid #CCC;
+    display: block;
+    float: left;
+    height: 10px;
+    padding: 1px;
+    width: 10px;
+	margin: 0 7px;
+}
+.SkinSelectorWrapper div span .icon-skin {
+display: none;
+}

@@ -1,0 +1,18 @@
+.topic .post:not(:first-child) .posthead h2 {margin-left: 50px;margin-top: 7px; min-height: 45px;overflow: hidden;padding: 0;}
+.topic .post:not(:first-child) .posthead h2 a span strong {float: none !important;}
+.topic .post:not(:first-child) .postfoot {margin-left: inherit;}
+.topic .post:not(:first-child) .user, .topic .post:not(:first-child) .user-contact, .topic .post:not(:first-child) .sig-content, .topic .post:not(:first-child) .posthead h2 strong:first-child {display: none;}
+.topic .post:not(:first-child) .postmain {margin-left: 0;}
+.topic .post:not(:first-child) .posthead {padding: 2px 4px;}
+.topic .post:not(:first-child) .posthead h2 a[href*="/t"] {margin-left: -5px;}
+/* typeblog opcional */
+.topic .post:first-child {margin-bottom: 20px;}
+.topic-blog .main-foot, .topic-blog .paged-foot {margin: 0 auto;width: 86%;} 
+.topic .post:not(:first-child) {margin: 0 auto;width: 90%; border:0 !important;}
+.topic .post:not(:first-child) .postmain {border-color: #EEEEEE #DDDDDD #CCCCCC;border-style: solid;border-width: 2px 1px 1px;}
+.topic .post:first-child {background: none repeat scroll 0 0 #F4F9FD;border: 1px  solid #DDDDDD;}
+.pun .topic {background: none repeat scroll 0 0 transparent;border-width: 0;}
+/*********PUNBB***********/
+
+
+

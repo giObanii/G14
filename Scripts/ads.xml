@@ -1,0 +1,10 @@
+<Module>
+<ModulePrefs 
+description="Ads for toxigeek.com" height="64" title_url="http://toxigeek.com/" 
+width="728" 
+author="giObanii" 
+author_link="http://toxigeek.com/" 
+title="Ads" 
+author_email="giObanii@gmail.com"/>
+<Content type="url" href="http://toxigeek.com/ads"/>
+</Module>
