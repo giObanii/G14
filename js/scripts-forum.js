@@ -3,5 +3,181 @@
 //zX2Aw8vj4Rd3
 
 var poll = '127' ;
-
-eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('$(N).3g(f(){I(!N.W.4.1d(\'21.3h.3i\')&&!N.W.4.1d(\'21.1v\'))R;h 22="©23 1w m. 25 26 27.";$(\'.q-o\').3j("3k",f(e){R 3l});h u=W.4;$(\'1x\').n(\'<b O="X:13"><b j="28" J="Y-29-S"><b J="Y-29-S-14"><b J="Y-1y-S"><1y  j="2a" 2b="6" 2b="6" 3m="/Y?3n=\'+u+\'"><10><11>3o : </11><15 j="K" 1e="1z" 1f="K"></10><10><11>3p : </11><15 j="1g" 1e="1g" 1f="1g"></10><10 O="3q: T; Z-1A: 3r; 1z-3s: T;"><11 O="Z-3t: 3u; Z-1A: 3v; 1B: 3w; Z-T: 3x;">3y : </11><15 1e="3z" 1f="3A" 3B="2c" O="1B: 3C;"></10><15 j="1h" 1e="1h" 1f="Y" U="3D" J="1h"></1y></b></b></b></b>\');$(\'a[4="/Y?3E"], a[4="/Y"]\').r(\'4\',\'#28\').k(\'S\');$("#2a").1h(f(2d){I($("#K").2e()==""|$("#1g").2e()==""){$.S().3F();2d.2f()}});$(\'.S\').S();$(\'.3G-1A, 3H[7*="3I.3J.5"], 1C[7*="3K.3L.1v"], 1C[7*="3M.5"], 1C[7*="3N.5"]\').P(f(){$(p).1i(\'b\').Q()});I(!16.V)R;h 1j=\'\';h 2g=24*60*60*1D;h 2h=60*1D;h 1E=f(j){$(\'.1F-2i.2j\'+j).1G(\'<8 7="\'+2k(j)+\'" />\')};h 2k=f(j){I(V.1k(\'1H\'+j)<+1l 1m-2g||(V.1k(\'1n\'+j)==1j&&V.1k(\'1H\'+j)<+1l 1m-2h)){V.1I(\'1n\'+j,1j);$.1J(\'/u\'+j,f(d){V.1I(\'1H\'+j,+1l 1m);V.1I(\'1n\'+j,$(\'.2l-2m.3O-3P.T 1K 8\',d).17().r(\'7\')||1j);1E(j)})}R V.1k(\'1n\'+j)};h 1L={};$(\'.2n .2o .2p 2q a.2r\').H(\'.2n .2o.3Q .2p 2q a.2r\').P(f(){1L[$(p).r(\'4\').2s(2)]=1;$(p).1i(\'3R,1K\').3S(\'<b J="1F-2i 2j\'+$(p).r(\'4\').2s(2)+\'"></b>\')});1o(i 1M 1L){1E(i)};$.3T(\'v://y.z.5/m/A/B/2t/1N-3U.2t\');h 2u=16.W+"";I(2u.1d(/t.*$/)){$(\'.2v.t\'+2v+\' .2l-2m 1K\').Q();$(\'.6-c\').r(\'3V\',\'3W\');$(\'.6-c\').18(\'3X\',\'13\');$(\'.6-c\').18(\'3Y\',\'13\');$(\'3Z[7 *="1O"]\').P(f(){$(p).r(\'1B\',40).r(\'41\',42).2w(\'<b J="1O-43"><b J="1O-1x"></b></b>\')});$(\'.6-c 8\').44(f(){$(p).r(\'7\',\'v://y.z.5/m/A/B/18/8/45-2x-46.2y\').r(\'1P\',\'47 H 48\')});$(\'.6-c 8\').H(\'a.q-o 8, 8[7*="2z-2x"], 8[7*="2A.2B"], a 8\').k(\'2C\');$(\'b.6-c 8.2C\').P(f(){$(p).2w(\'<a 4="\'+$(p).r(\'7\')+\'" w="\'+p.1P+\'" J="S" 49="2z"></a>\')});$(".1Q").P(f(){$(p).1i(".4a-14").L(".4b .4c-4d").n($(p).L(".1Q-2D").12?$(p).L(".1Q-2D").r("w").19(/^.*\\(([0-9]*) .*?\\)$/,"$1"):"");$(p).Q()});h x=$(\'.6-c a\').1J();1o(i=0;i<x.12;i++){h 1p=$(x[i]).r(\'4\');1p=1p.19(/2E:\\/\\/4e.4f\\/.*?\\//,"");$(x[i]).r(\'4\',1p)}$(\'.1q-14 #1a-1r:H(:17)\').Q();$(\'.1q-14 #1a-1r\').17().r(\'O\',\'X: 1R;\');$(\'.6-c a[4*="2F.4g.4h"]\').k(\'q-o\').n(\'<8 w="C D 4i" 7="v://y.z.5/m/A/B/E/2F.F">\');$(\'.6-c a[4*="4j.5/o/"]\').k(\'q-o\').n(\'<8 w="C D 4k" 7="v://y.z.5/m/A/B/E/4l.F">\');$(\'.6-c a[4*="4m.4n"], .6-c a[4*="4o."]\').k(\'q-o\').n(\'<8 w="C D 4p" 7="v://y.z.5/m/A/B/E/4q.F">\');$(\'.6-c a[4*="4r.1v"]\').k(\'q-o\').n(\'<8 w="C D 4s" 7="v://y.z.5/m/A/B/E/4t.F">\');$(\'.6-c a[4*="4u.5"]\').k(\'q-o\').n(\'<8 w="C D 4v" 7="v://y.z.5/m/A/B/E/4w.F">\');$(\'.6-c a[4*="4x.5"]\').k(\'q-o\').n(\'<8 w="C D 4y" 7="v://y.z.5/m/A/B/E/4z.F">\');$(\'.6-c a[4*="4A.5"]\').k(\'q-o\').n(\'<8 w="C D 4B" 7="v://y.z.5/m/A/B/E/4C.F">\');$(\'.6-c a[4*="4D.5"]\').k(\'q-o\').n(\'<8 w="C D 4E" 7="v://y.z.5/m/A/B/E/4F.F">\');$(\'.6-c a[4*="4G.5"]\').k(\'q-o\').n(\'<8 w="C D 4H" 7="v://y.z.5/m/A/B/E/4I.F">\');$(\'.6-c a[4*="2G.5"]\').k(\'q-o\').n(\'<8 w="C D 2G" 7="v://y.z.5/m/A/B/E/4J.F">\');$(\'.6-c a[4*="2H.5"]\').k(\'q-o\').n(\'<8 w="C D 4K" 7="v://y.z.5/m/A/B/E/2H.F">\');$(\'.6-c a[4*="4L.5/4M/"]\').k(\'q-o\').n(\'<8 w="C D 4N" 7="v://y.z.5/m/A/B/E/4O.F">\');$(\'.6-c a[4*="2I.5"], .6-c a[4*="2I.4P"], .6-c a[4*="4Q.4R"]\').k(\'q-o\').n(\'<8 w="C D 4S" 7="v://y.z.5/m/A/B/E/4T.F">\');$(\'.6-c a[4*="2J.5"]\').k(\'q-o\').n(\'<8 w="C D 4U" 7="v://y.z.5/m/A/B/E/2J.F">\');$(\'.6-c a[4*="2K.5"]\').k(\'q-o\').n(\'<8 w="C D 4V" 7="v://y.z.5/m/A/B/E/2K.F">\');$(\'.6-c a[4*="4W.5"]\').k(\'q-o\').n(\'<8 w="C D 4X" 7="v://y.z.5/m/A/B/E/4Y.F">\');$(\'.6-c a[4*="4Z.50"]\').k(\'q-o\').n(\'<8 w="C D 2L" 7="v://51-52.53.5/54/55/E/2L.F">\');$(\'.6-c a[4*="56.2M.5"]\').k(\'q-o\').n(\'<8 w="C D 2M" 7="2E://2A.2B/57">\');h 1S=[\'Z-T: 58;\',\'Z-T: 59;\',\'Z-T: 5a;\'];h 2N=1T.2O(1T.5b()*1S.12);$(\'#5c\').r(\'O\',1S[2N]);$(\'.6 #1a-1r\').P(f(){$(p).5d();$(p).H(\'#1a-1r:17\').Q()});$(\'.1U .6\').H(\'.1U .6:17\').P(f(){$(p).1i(\'.1q.5e\').k(\'1U-5f\');(\'©23 1w m. ©2P.5. 25 26 27\');$(p).L(\'.2Q\').L(\'a\').1V(\'<2R>\');h 2S=$(p).L(\'.1a-5g-5h a[4*="/u"]\').1G();h 2T=$(p).L(\'.5i\').1G();$(p).L(\'.2Q\').L(\'5j\').n(\' 5k \'+2T+\'\').5l(\'<b J="5m-1F">\'+2S+\'<2R></b>\')});h 1N=$(\'.6 a\'),2U=N.5n.19(W.5o,\'\').19(W.5p,\'\'),2V=/\\.(F|2y|5q|2W)$/i;1o(h i=0,l;(l=1N[i++]);){I(l.1W!==l.4)5r;I(2V.5s(l.4))l.1W=\'<8 J="5t-8" 1P="\'+l.4+\'" 7="\'+l.4+\'">\';I(l.4.5u(2U)===0)l.1W=l.4.2X(l.4.5v(\'/\'))};$(\'.5w\',N.2Y(\'1q-14\')).5x(f(e){e.2f();h 1b=(f(){I(16.2Z){h e=N.5y;R(e&&e.5z.30()1M{1X:1,15:1})?e.U.2X(e.5A,e.5B):16.2Z().5C()}31 I(N.1b.32){R(N.1b.32()).1z||\'\'}R 5D})();I(1b)R 33(\'[34]\'+1b+\'[/34]\',\'\');h x=$(\'1x\').n(\'<b j="35" O="X:13"><8 7="v://y.z.5/m/A/B/E/1c.2W"></b><b j="36" O="X:13"></b>\').L(\'#36\');h 1c=N.2Y(\'35\'),1Y=N.6.c;1Y.5E();1o(h i 1M{5F:1,5G:1,5H:1,5I:1})1c.O[i.30()]=1Y[\'5J\'+i]+\'5K\';1c.O.X=\'\';x.5L(p.5M.4+\' 1X\',f(){33(x[0].5N(\'1X\')[0].U,\'\');x.5O(1c).Q()})})};I(16.W.4.1d(/5P\\?5Q=2c&5R=2/)&&$(\'#M\').12){f 1s(){$(\'#M\').r(\'U\',$(\'#M\').r(\'U\').5S().19(/(\\s)\\s+/g,\'$1\'));I($(\'#M\').r(\'U\')==\'\')$(\'#M\').k(\'T\').1t(\'G\').1t(\'H-G\'),$(\'.G-K, .H-G-K\').Q();31 $.1J(\'/5T?5U=5V&5W=K&5X=\'+5Y($(\'#M\').r(\'U\'))+\'&5Z=\'+1T.2O((1l 1m()).61()/1D),f(1u){($(1u).L(\'#1Z\').12==1&&$(1u).L(\'#1Z 37\').12==1&&$(1u).L(\'#1Z 37\').r(\'U\')!=\'\')?$(\'#M\').1t(\'G\').k(\'H-G\').1V(\'<b j="38" J="H-G-K"><b j="39" J="3a">62 3b</b></b>\'):$(\'#M\').1t(\'H-G\').k(\'G\').1V(\'<b j="38" J="G-K"><b j="3c" J="3a">3b</b></b>\');h 22=\'63 64 1w m - 2P.5\';$("#M.H-G").P(f(){$(\'.G-K, .H-G-K:3d-3e(3)\').Q();$(\'.H-G-K, #39\').18(\'X\',\'1R\')});$("#M.G").P(f(){$(\'.H-G-K, .G-K:3d-3e(3)\').Q();$(\'.G-K, #3c\').18(\'X\',\'1R\')})})};$(\'#M\').65(f(){1s()});I(66 20==\'f\'){h 3f=20;20=f(){3f();1s()}}1s()}});',62,379,'||||href|com|post|src|img|||div|message|||function||var||id|addClass||giObanii|append|download|this|link|attr||||https|title||raw|githubusercontent|G14|master|Descarga|desde|images|png|available|not|if|class|username|find|username_reg|document|style|each|remove|return|lightbox|left|value|localStorage|location|display|login|margin|label|em|length|none|content|input|window|first|css|replace|user|selection|loading|match|type|name|password|submit|closest|default_avatar|getItem|new|Date|d_ava|for|Href|main|ads|verifyRU|removeClass|data|net|by|body|form|text|top|width|iframe|1000|set_avatar|avatar|html|m_ava|setItem|get|dd|to_replace|in|links|youtube|alt|vote|block|closeads|Math|topic|after|innerHTML|textarea|textbox|username_list|facebook_register_login|giografico|Copyrights|Copyright||All|Rights|Reserved|login_form|box|loginform|method|true|ev|val|preventDefault|caching_time|caching_error|index|member|get_avatar|frm|set|table|statused|tcr|strong|gensmall|substr|js|forumlocation|poll|wrap|image|jpg|pespcedit|goo|gl|lightbox_show|bar|http|mega|4shared|bitshare|depositfiles|zippyshare|freakshare|Filecloud|fifacz|rand|floor|toxigeek|posthead|br|ava|autor|local|reg|gif|substring|getElementById|getSelection|toLowerCase|else|createRange|bbfontstyle|quote|quote_loading|quoteL|option|cont_pwd|username_bad|pwd_img|Disponible|username_good|nth|child|old_frl|ready|activo|mx|bind|contextmenu|false|action|redirect|Username|Password|float|5px|align|right|10px|3px|85px|7px|Recordarme|checkbox|autologin|checked|20px|Conectarse|connexion|shake|google_ads_div_728x90|script|cas|criteo|ad|z5x|adnxs|foroactivo|profile|view|subforos|td|prepend|getScript|pes|unselectable|on|MozUserSelect|KhtmlUserSelect|embed|600|height|340|head|error|no|found|Image|avaliable|rel|entry|votaciones|cant|voto|adf|ly|co|nz|Mega|mediafire|Medifire|5z34gp|ul|to|uploaded|Uploaded|pbprk|rapidgator|Rapidgator|g4r5rd|jumbofiles|Jumbofiles|2i1nx1h|filepost|Filepost|2wn22rb|gamefront|Gamefront|hry9f4|rapidshare|Rapidshare|2134x03|howfile|Howfile|p0wfem|4j5dzo|Bitshare|moddingway|file|Moddingway|m0gnay|org|dfiles|eu|Depositfiles|2ce0jgg|Zippyshare|Freakshare|putlocker|Putlocker|155rdsq|filecloud|io|scripts|giobanii|googlecode|svn|trunk|downloads|Ic2cM|312px|156px|0px|random|DownloadClic|show|paged|blog|basic|info|nick|h2|por|before|blog_comment|URL|hash|pathname|jpeg|continue|test|auto|indexOf|lastIndexOf|i_icon_quote|click|activeElement|tagName|selectionStart|selectionEnd|toString|null|focus|Width|Height|Left|Top|offset|px|load|parentNode|getElementsByTagName|add|register|agreed|step|trim|search|mode|searchuser|fieldname|search_username|encodeURIComponent|time||getTime|No|Modifications|made|change|typeof'.split('|'),0,{}))
+$(document).ready(function() {
+    if (!document.location.href.match('giografico.activo.mx') && !document.location.href.match('giografico.net')) return;
+    var Copyrights = "©Copyright by giObanii. All Rights Reserved.";
+    $('.link-download').bind("contextmenu", function(e) {
+        return false
+    });
+    var u = location.href;
+    $('body').append('<div style="display:none"><div id="login_form" class="login-box-lightbox"><div class="login-box-lightbox-content"><div class="login-form-lightbox"><form  id="loginform" method="post" method="post" action="/login?redirect=' + u + '"><label><em>Username : </em><input id="username" type="text" name="username"></label><label><em>Password : </em><input id="password" type="password" name="password"></label><label style="float: left; margin-top: 5px; text-align: left;"><em style="margin-right: 10px; margin-top: 3px; width: 85px; margin-left: 7px;">Recordarme : </em><input type="checkbox" name="autologin" checked="true" style="width: 20px;"></label><input id="submit" type="submit" name="login" value="Conectarse" class="submit"></form></div></div></div></div>');
+    $('a[href="/login?connexion"], a[href="/login"]').attr('href', '#login_form').addClass('lightbox');
+    $("#loginform").submit(function(ev) {
+        if ($("#username").val() == "" | $("#password").val() == "") {
+            $.lightbox().shake();
+            ev.preventDefault()
+        }
+    });
+    $('.lightbox').lightbox();
+    $('.google_ads_div_728x90-top, script[src*="cas.criteo.com"], iframe[src*="ad.z5x.net"], iframe[src*="adnxs.com"], iframe[src*="foroactivo.com"]').each(function() {
+        $(this).closest('div').remove()
+    });
+    if (!window.localStorage) return;
+    var default_avatar = '';
+    var caching_time = 24 * 60 * 60 * 1000;
+    var caching_error = 60 * 1000;
+    var set_avatar = function(id) {
+        $('.avatar-index.member' + id).html('<img src="' + get_avatar(id) + '" />')
+    };
+    var get_avatar = function(id) {
+        if (localStorage.getItem('m_ava' + id) < +new Date - caching_time || (localStorage.getItem('d_ava' + id) == default_avatar && localStorage.getItem('m_ava' + id) < +new Date - caching_error)) {
+            localStorage.setItem('d_ava' + id, default_avatar);
+            $.get('/u' + id, function(d) {
+                localStorage.setItem('m_ava' + id, +new Date);
+                localStorage.setItem('d_ava' + id, $('.frm-set.profile-view.left dd img', d).first().attr('src') || default_avatar);
+                set_avatar(id)
+            })
+        }
+        return localStorage.getItem('d_ava' + id)
+    };
+    var to_replace = {};
+    $('.table .statused .tcr strong a.gensmall').not('.table .statused.subforos .tcr strong a.gensmall').each(function() {
+        to_replace[$(this).attr('href').substr(2)] = 1;
+        $(this).closest('td,dd').prepend('<div class="avatar-index member' + $(this).attr('href').substr(2) + '"></div>')
+    });
+    for (i in to_replace) {
+        set_avatar(i)
+    };
+    $.getScript('https://raw.githubusercontent.com/giObanii/G14/master/js/links-pes.js');
+    var forumlocation = window.location + "";
+    if (forumlocation.match(/t.*$/)) {
+        $('.poll.t' + poll + ' .frm-set dd').remove();
+        $('.post-message').attr('unselectable', 'on');
+        $('.post-message').css('MozUserSelect', 'none');
+        $('.post-message').css('KhtmlUserSelect', 'none');
+        $('embed[src *="youtube"]').each(function() {
+            $(this).attr('width', 600).attr('height', 340).wrap('<div class="youtube-head"><div class="youtube-body"></div></div>')
+        });
+        $('.post-message img').error(function() {
+            $(this).attr('src', 'https://raw.githubusercontent.com/giObanii/G14/master/css/img/no-image-found.jpg').attr('alt', 'Image not avaliable')
+        });
+        $('.post-message img').not('a.link-download img, img[src*="pespcedit-image"], img[src*="goo.gl"], a img').addClass('lightbox_show');
+        $('div.post-message img.lightbox_show').each(function() {
+            $(this).wrap('<a href="' + $(this).attr('src') + '" title="' + this.alt + '" class="lightbox" rel="pespcedit"></a>')
+        });
+        $(".vote").each(function() {
+            $(this).closest(".entry-content").find(".votaciones .cant-voto").append($(this).find(".vote-bar").length ? $(this).find(".vote-bar").attr("title").replace(/^.*\(([0-9]*) .*?\)$/, "$1") : "");
+            $(this).remove()
+        });
+        var x = $('.post-message a').get();
+        for (i = 0; i < x.length; i++) {
+            var Href = $(x[i]).attr('href');
+            Href = Href.replace(/http:\/\/adf.ly\/.*?\//, "");
+            $(x[i]).attr('href', Href)
+        }
+        $('.main-content #user-ads:not(:first)').remove();
+        $('.main-content #user-ads').first().attr('style', 'display: block;');
+        $('.post-message a[href*="mega.co.nz"]').addClass('link-download').append('<img title="Descarga desde Mega" src="https://raw.githubusercontent.com/giObanii/G14/master/images/mega.png">');
+        $('.post-message a[href*="mediafire.com/download/"]').addClass('link-download').append('<img title="Descarga desde Medifire" src="https://raw.githubusercontent.com/giObanii/G14/master/images/5z34gp.png">');
+        $('.post-message a[href*="ul.to"], .post-message a[href*="uploaded."]').addClass('link-download').append('<img title="Descarga desde Uploaded" src="https://raw.githubusercontent.com/giObanii/G14/master/images/pbprk.png">');
+        $('.post-message a[href*="rapidgator.net"]').addClass('link-download').append('<img title="Descarga desde Rapidgator" src="https://raw.githubusercontent.com/giObanii/G14/master/images/g4r5rd.png">');
+        $('.post-message a[href*="jumbofiles.com"]').addClass('link-download').append('<img title="Descarga desde Jumbofiles" src="https://raw.githubusercontent.com/giObanii/G14/master/images/2i1nx1h.png">');
+        $('.post-message a[href*="filepost.com"]').addClass('link-download').append('<img title="Descarga desde Filepost" src="https://raw.githubusercontent.com/giObanii/G14/master/images/2wn22rb.png">');
+        $('.post-message a[href*="gamefront.com"]').addClass('link-download').append('<img title="Descarga desde Gamefront" src="https://raw.githubusercontent.com/giObanii/G14/master/images/hry9f4.png">');
+        $('.post-message a[href*="rapidshare.com"]').addClass('link-download').append('<img title="Descarga desde Rapidshare" src="https://raw.githubusercontent.com/giObanii/G14/master/images/2134x03.png">');
+        $('.post-message a[href*="howfile.com"]').addClass('link-download').append('<img title="Descarga desde Howfile" src="https://raw.githubusercontent.com/giObanii/G14/master/images/p0wfem.png">');
+        $('.post-message a[href*="4shared.com"]').addClass('link-download').append('<img title="Descarga desde 4shared" src="https://raw.githubusercontent.com/giObanii/G14/master/images/4j5dzo.png">');
+        $('.post-message a[href*="bitshare.com"]').addClass('link-download').append('<img title="Descarga desde Bitshare" src="https://raw.githubusercontent.com/giObanii/G14/master/images/bitshare.png">');
+        $('.post-message a[href*="moddingway.com/file/"]').addClass('link-download').append('<img title="Descarga desde Moddingway" src="https://raw.githubusercontent.com/giObanii/G14/master/images/m0gnay.png">');
+        $('.post-message a[href*="depositfiles.com"], .post-message a[href*="depositfiles.org"], .post-message a[href*="dfiles.eu"]').addClass('link-download').append('<img title="Descarga desde Depositfiles" src="https://raw.githubusercontent.com/giObanii/G14/master/images/2ce0jgg.png">');
+        $('.post-message a[href*="zippyshare.com"]').addClass('link-download').append('<img title="Descarga desde Zippyshare" src="https://raw.githubusercontent.com/giObanii/G14/master/images/zippyshare.png">');
+        $('.post-message a[href*="freakshare.com"]').addClass('link-download').append('<img title="Descarga desde Freakshare" src="https://raw.githubusercontent.com/giObanii/G14/master/images/freakshare.png">');
+        $('.post-message a[href*="putlocker.com"]').addClass('link-download').append('<img title="Descarga desde Putlocker" src="https://raw.githubusercontent.com/giObanii/G14/master/images/155rdsq.png">');
+        $('.post-message a[href*="filecloud.io"]').addClass('link-download').append('<img title="Descarga desde Filecloud" src="https://scripts-giobanii.googlecode.com/svn/trunk/images/Filecloud.png">');
+        $('.post-message a[href*="downloads.fifacz.com"]').addClass('link-download').append('<img title="Descarga desde fifacz" src="http://goo.gl/Ic2cM">');
+        var closeads = ['margin-left: 312px;', 'margin-left: 156px;', 'margin-left: 0px;'];
+        var rand = Math.floor(Math.random() * closeads.length);
+        $('#DownloadClic').attr('style', closeads[rand]);
+        $('.post #user-ads').each(function() {
+            $(this).show();
+            $(this).not('#user-ads:first').remove()
+        });
+        $('.topic .post').not('.topic .post:first').each(function() {
+            $(this).closest('.main.paged').addClass('topic-blog');
+            ('©Copyright by giObanii. ©toxigeek.com. All Rights Reserved');
+            $(this).find('.posthead').find('a').after('<br>');
+            var ava = $(this).find('.user-basic-info a[href*="/u"]').html();
+            var autor = $(this).find('.nick').html();
+            $(this).find('.posthead').find('h2').append(' por ' + autor + '').before('<div class="blog_comment-avatar">' + ava + '<br></div>')
+        });
+        var links = $('.post a'),
+            local = document.URL.replace(location.hash, '').replace(location.pathname, ''),
+            reg = /\.(png|jpg|jpeg|gif)$/i;
+        for (var i = 0, l;
+            (l = links[i++]);) {
+            if (l.innerHTML !== l.href) continue;
+            if (reg.test(l.href)) l.innerHTML = '<img class="auto-img" alt="' + l.href + '" src="' + l.href + '">';
+            if (l.href.indexOf(local) === 0) l.innerHTML = l.href.substring(l.href.lastIndexOf('/'))
+        };
+        $('.i_icon_quote', document.getElementById('main-content')).click(function(e) {
+            e.preventDefault();
+            var selection = (function() {
+                if (window.getSelection) {
+                    var e = document.activeElement;
+                    return (e && e.tagName.toLowerCase() in {
+                        textarea: 1,
+                        input: 1
+                    }) ? e.value.substring(e.selectionStart, e.selectionEnd) : window.getSelection().toString()
+                } else if (document.selection.createRange) {
+                    return (document.selection.createRange()).text || ''
+                }
+                return null
+            })();
+            if (selection) return bbfontstyle('[quote]' + selection + '[/quote]', '');
+            var x = $('body').append('<div id="quote_loading" style="display:none"><img src="https://raw.githubusercontent.com/giObanii/G14/master/images/loading.gif"></div><div id="quoteL" style="display:none"></div>').find('#quoteL');
+            var loading = document.getElementById('quote_loading'),
+                textbox = document.post.message;
+            textbox.focus();
+            for (var i in {
+                    Width: 1,
+                    Height: 1,
+                    Left: 1,
+                    Top: 1
+                }) loading.style[i.toLowerCase()] = textbox['offset' + i] + 'px';
+            loading.style.display = '';
+            x.load(this.parentNode.href + ' textarea', function() {
+                bbfontstyle(x[0].getElementsByTagName('textarea')[0].value, '');
+                x.add(loading).remove()
+            })
+        })
+    };
+    if (window.location.href.match(/register\?agreed=true&step=2/) && $('#username_reg').length) {
+        function verifyRU() {
+            $('#username_reg').attr('value', $('#username_reg').attr('value').trim().replace(/(\s)\s+/g, '$1'));
+            if ($('#username_reg').attr('value') == '') $('#username_reg').addClass('left').removeClass('available').removeClass('not-available'), $('.available-username, .not-available-username').remove();
+            else $.get('/search?mode=searchuser&fieldname=username&search_username=' + encodeURIComponent($('#username_reg').attr('value')) + '&time=' + Math.floor((new Date()).getTime() / 1000), function(data) {
+                ($(data).find('#username_list').length == 1 && $(data).find('#username_list option').length == 1 && $(data).find('#username_list option').attr('value') != '') ? $('#username_reg').removeClass('available').addClass('not-available').after('<div id="cont_pwd" class="not-available-username"><div id="username_bad" class="pwd_img">No Disponible</div></div>'): $('#username_reg').removeClass('not-available').addClass('available').after('<div id="cont_pwd" class="available-username"><div id="username_good" class="pwd_img">Disponible</div></div>');
+                var Copyrights = 'Modifications made by giObanii - toxigeek.com';
+                $("#username_reg.not-available").each(function() {
+                    $('.available-username, .not-available-username:nth-child(3)').remove();
+                    $('.not-available-username, #username_bad').css('display', 'block')
+                });
+                $("#username_reg.available").each(function() {
+                    $('.not-available-username, .available-username:nth-child(3)').remove();
+                    $('.available-username, #username_good').css('display', 'block')
+                })
+            })
+        };
+        $('#username_reg').change(function() {
+            verifyRU()
+        });
+        if (typeof facebook_register_login == 'function') {
+            var old_frl = facebook_register_login;
+            facebook_register_login = function() {
+                old_frl();
+                verifyRU()
+            }
+        }
+        verifyRU()
+    }
+});
