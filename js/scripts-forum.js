@@ -3,6 +3,7 @@
 //zX2Aw8vj4Rd3
 
 $(document).ready(function() {
+	    $.getScript('https://raw.githubusercontent.com/giObanii/G14/master/js/jquery.lightbox.min.js');
     $('.google_ads_div_728x90-top, script[src*="cas.criteo.com"], iframe[src*="ad.z5x.net"], iframe[src*="adnxs.com"], iframe[src*="foroactivo.com"], iframe[src*="adstune.com"], div[style*="position:relative;height:90px; min-width: 728px px;"]').each(function() {
         $(this).closest('div').remove()
     });
