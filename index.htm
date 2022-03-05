@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://qrco.de/C0ntact?trackSharing=1"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <link rel="stylesheet" type="text/css" href="P%C3%A1gina%20de%20Redes%20Sociales%20Archivos/template_normal.css">
+<script type="text/javascript">
+/*<![CDATA[*/
+YII_CSRF_TOKEN='025b38f5ee3771b347d2a6fb2b9b023eee01b9dc';
+/*]]>*/
+</script>
+<title>Página de Redes Sociales</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="https://qrco.de/img/favicon/favicon.ico" type="image/x-icon">
+        <link href="P%C3%A1gina%20de%20Redes%20Sociales%20Archivos/css.css" rel="stylesheet">
+
+    <!--Facebook meta-->
+    <meta property="og:url" content="http://qrco.de/C0ntact?trackSharing=1">
+    <meta property="og:title" content="Conéctate con nosotros en las redes sociales">
+    <meta property="og:description" content="Síguenos y recibe actualizaciones en tu red social favorita.">
+    <meta property="og:image" content="http://qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24584971_1.png?0.7979538901022574">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://qrco.de/C0ntact?trackSharing=1">
+    <meta name="twitter:title" content="Conéctate con nosotros en las redes sociales">
+    <meta name="twitter:description" content="Síguenos y recibe actualizaciones en tu red social favorita.">
+    <meta name="twitter:image" content="http://qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24584971_1.png?0.7979538901022574">
+    <meta name="twitter:image:width" content="200">
+    <meta name="twitter:image:height" content="200">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Conéctate con nosotros en las redes sociales">
+    <meta itemprop="description" content="Síguenos y recibe actualizaciones en tu red social favorita.">
+    <meta itemprop="image" content="http://qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24584971_1.png?0.7979538901022574">
+
+</head>
+<body ng-app="app" id="dsocial-body" ng-controller="ComplexController" class="whiteTheme">
+
+<div class="loading-welcome active welcome-screen" ng-style="{'background-color': view.code.welcome_extra.background || view.welcome_extra.background}" style="background-color: rgb(255, 255, 255); display: none;">
+    <div class="progress">
+        <div class="loading-bar indeterminate" ng-style="{'background-color': view.code.color1 || view.color1}" style="background-color: rgb(69, 90, 100);"></div>
+    </div>
+    <div class="helper"></div>
+    <img id="welcomeImg" imageonload="" ng-src="//qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24585093_1.png?0.9085793318547434" ng-style="{
+            'max-width': view.code.welcome_extra.zoom *2 || view.welcome_extra.zoom *2 + 'px',
+            'max-height': view.code.welcome_extra.zoom *2 || view.welcome_extra.zoom *2 + 'px',
+            'animation-iteration-count' :  view.showPreview == 'infinite' ? 'infinite' : '',
+            'animation-direction' :  view.showPreview == 'infinite' ? 'alternate' : ''
+            }" src="P%C3%A1gina%20de%20Redes%20Sociales%20Archivos/24585093_1.png" style="max-width: 100px; max-height: 100px; display: inline;">
+</div>
+
+<div class="vcard-template style2" id="rootElement">
+    <!-- ngIf: !view.code.avatar && !view.code.customHeaderImage -->
+    <!-- ngIf: view.code.avatar || view.code.customHeaderImage --><div ng-if="view.code.avatar || view.code.customHeaderImage" class="ng-scope">
+        <div class="blur-bgd hidden-sm hidden-xs" ng-style="{'background': view.code.avatar.length &gt; 0 || view.code.customHeaderImage !=undefined ? 'url(' + (view.code.avatar.length &gt; 0 ? view.code.avatar : view.code.customHeaderImage.url) +')' : 'none'}" ng-class="{'blur-no-avatar':!view.code.avatar &amp;&amp; !view.code.customHeaderImage}" style="background: rgba(0, 0, 0, 0) url(&quot;//qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24584971_1.png?0.7979538901022574&quot;) repeat scroll 0% 0%;">
+        </div>
+    </div><!-- end ngIf: view.code.avatar || view.code.customHeaderImage -->
+    <div class="bgd-shadow"></div>
+    <!--    <pre>avatar_extra: {{view.code.avatar_extra | json}}</pre>-->
+    <!--    <pre>welcome_extra: {{view.code.welcome_extra | json}}</pre>-->
+    <div class="page-home page">
+        <div class="vcard-header">
+            <div class="vcard-header-wrapper">
+                <div class="vcard-top-info avatar-container" ng-style="setAvatarExtra()" style="background: url(&quot;//qrcgcustomers.s3-eu-west-1.amazonaws.com/account17929606/24584971_1.png?0.7979538901022574&quot;);background-size: 100%;background-color: #ffffff;">
+                </div>
+                <div class="event-section-title shadow-2" ng-class="{'shadow-2': !view.code.avatar || !view.code.customHeaderImage}" ng-style="getBackgroundColor();" style="background: rgb(69, 90, 100) none repeat scroll 0% 0%;">
+                    <div class="event-content-container">
+                        <div class="event-title dynamicTextColor ng-binding">Conéctate con nosotros en las redes sociales</div>
+                        <div class="event-teaser mt-10 dynamicTextColor ng-binding" ng-show="view.code.teaser &amp;&amp; (view.code.avatar || view.code.customHeaderImage)">
+                            Síguenos y recibe actualizaciones en tu red social favorita.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="event-body">
+            <div class="vcard-body-wrapper">
+                <div class="vcard-body">
+                    <div id="devent-details">
+    <!-- ngIf: view.code.avatar == '' && !view.code.customHeaderImage && view.code.teaser -->
+    <!-- ngRepeat: channel in view.code.channels track by $index --><a ng-href="https://wa.me/5217772145887" target="_blank" class="channel-container ng-scope" id="channel-item-WhatsApp" ng-click="loadDemo ? callAction($event,'channelAction') : ''" ng-repeat="channel in view.code.channels track by $index" href="https://wa.me/5217772145887">
+        <div class="table-cell-middle1 pl-55 pos-relative">
+            <div class="channel-bgd-whatsapp" ng-style="{top: channel.label ? 'calc(50% - 20px)' : 'calc(50% - 15px)'}" style="top: calc(50% - 20px);">
+                <!-- ngIf: channel.name != 'Snapchat' --><i ng-if="channel.name != 'Snapchat'" class="icon-social-whatsapp"></i><!-- end ngIf: channel.name != 'Snapchat' -->
+                <!-- ngIf: channel.name == 'Snapchat' -->
+            </div>
+            <div class="channel-prop-container" ng-class="{'pull-left': channel.link &amp;&amp; channel.label &amp;&amp; channel.name == 'Website', 'pull-left mt-101 height-301': channel.link &amp;&amp; !channel.label &amp;&amp; channel.name == 'Website', 'pt-10': !channel.label}">
+
+                <!-- ngIf: channel.name == 'Website' -->
+                <!-- ngIf: channel.name != 'Website' --><span ng-if="channel.name != 'Website'" class="ng-scope">
+                    <div class="channel-name ng-binding mb-5" ng-class="{'mb-5': channel.label}">
+                    WhatsApp
+                    </div>
+                    <div class="channel-label ng-binding">
+                        Envianos un mensaje
+                    </div>
+                </span><!-- end ngIf: channel.name != 'Website' -->
+            </div>
+        </div>
+    </a><!-- end ngRepeat: channel in view.code.channels track by $index --><a ng-href="http://m.me/GiStoreAcapulco" target="_blank" class="channel-container ng-scope" id="channel-item-Messenger" ng-click="loadDemo ? callAction($event,'channelAction') : ''" ng-repeat="channel in view.code.channels track by $index" href="http://m.me/GiStoreAcapulco">
+        <div class="table-cell-middle1 pl-55 pos-relative">
+            <div class="channel-bgd-messenger" ng-style="{top: channel.label ? 'calc(50% - 20px)' : 'calc(50% - 15px)'}" style="top: calc(50% - 20px);">
+                <!-- ngIf: channel.name != 'Snapchat' --><i ng-if="channel.name != 'Snapchat'" class="icon-social-messenger"></i><!-- end ngIf: channel.name != 'Snapchat' -->
+                <!-- ngIf: channel.name == 'Snapchat' -->
+            </div>
+            <div class="channel-prop-container" ng-class="{'pull-left': channel.link &amp;&amp; channel.label &amp;&amp; channel.name == 'Website', 'pull-left mt-101 height-301': channel.link &amp;&amp; !channel.label &amp;&amp; channel.name == 'Website', 'pt-10': !channel.label}">
+
+                <!-- ngIf: channel.name == 'Website' -->
+                <!-- ngIf: channel.name != 'Website' --><span ng-if="channel.name != 'Website'" class="ng-scope">
+                    <div class="channel-name ng-binding mb-5" ng-class="{'mb-5': channel.label}">
+                    Messenger
+                    </div>
+                    <div class="channel-label ng-binding">
+                        Envianos un mensaje
+                    </div>
+                </span><!-- end ngIf: channel.name != 'Website' -->
+            </div>
+        </div>
+    </a><!-- end ngRepeat: channel in view.code.channels track by $index --><a ng-href="https://www.facebook.com/GiStoreAcapulco" target="_blank" class="channel-container ng-scope" id="channel-item-Facebook" ng-click="loadDemo ? callAction($event,'channelAction') : ''" ng-repeat="channel in view.code.channels track by $index" href="https://www.facebook.com/GiStoreAcapulco">
+        <div class="table-cell-middle1 pl-55 pos-relative">
+            <div class="channel-bgd-facebook" ng-style="{top: channel.label ? 'calc(50% - 20px)' : 'calc(50% - 15px)'}" style="top: calc(50% - 20px);">
+                <!-- ngIf: channel.name != 'Snapchat' --><i ng-if="channel.name != 'Snapchat'" class="icon-social-facebook"></i><!-- end ngIf: channel.name != 'Snapchat' -->
+                <!-- ngIf: channel.name == 'Snapchat' -->
+            </div>
+            <div class="channel-prop-container" ng-class="{'pull-left': channel.link &amp;&amp; channel.label &amp;&amp; channel.name == 'Website', 'pull-left mt-101 height-301': channel.link &amp;&amp; !channel.label &amp;&amp; channel.name == 'Website', 'pt-10': !channel.label}">
+
+                <!-- ngIf: channel.name == 'Website' -->
+                <!-- ngIf: channel.name != 'Website' --><span ng-if="channel.name != 'Website'" class="ng-scope">
+                    <div class="channel-name ng-binding mb-5" ng-class="{'mb-5': channel.label}">
+                    Facebook
+                    </div>
+                    <div class="channel-label ng-binding">
+                        Siguenos en facebook
+                    </div>
+                </span><!-- end ngIf: channel.name != 'Website' -->
+            </div>
+        </div>
+    </a><!-- end ngRepeat: channel in view.code.channels track by $index --><a ng-href="http://www.instagram.com/gistoreacapulco" target="_blank" class="channel-container ng-scope" id="channel-item-Instagram" ng-click="loadDemo ? callAction($event,'channelAction') : ''" ng-repeat="channel in view.code.channels track by $index" href="http://www.instagram.com/gistoreacapulco">
+        <div class="table-cell-middle1 pl-55 pos-relative">
+            <div class="channel-bgd-instagram" ng-style="{top: channel.label ? 'calc(50% - 20px)' : 'calc(50% - 15px)'}" style="top: calc(50% - 20px);">
+                <!-- ngIf: channel.name != 'Snapchat' --><i ng-if="channel.name != 'Snapchat'" class="icon-social-instagram"></i><!-- end ngIf: channel.name != 'Snapchat' -->
+                <!-- ngIf: channel.name == 'Snapchat' -->
+            </div>
+            <div class="channel-prop-container" ng-class="{'pull-left': channel.link &amp;&amp; channel.label &amp;&amp; channel.name == 'Website', 'pull-left mt-101 height-301': channel.link &amp;&amp; !channel.label &amp;&amp; channel.name == 'Website', 'pt-10': !channel.label}">
+
+                <!-- ngIf: channel.name == 'Website' -->
+                <!-- ngIf: channel.name != 'Website' --><span ng-if="channel.name != 'Website'" class="ng-scope">
+                    <div class="channel-name ng-binding mb-5" ng-class="{'mb-5': channel.label}">
+                    Instagram
+                    </div>
+                    <div class="channel-label ng-binding">
+                        Siguenos en Instagram
+                    </div>
+                </span><!-- end ngIf: channel.name != 'Website' -->
+            </div>
+        </div>
+    </a><!-- end ngRepeat: channel in view.code.channels track by $index -->
+</div>
+<div class="vcard-row follow-scroll share-container ng-hide" ng-show="view.sharing">
+    <div class="fabs" id="shareFab">
+    <div class="fixed-blur-bgd">
+        <div class="chat">
+            <div class="fab-body">
+                <div class="icon-fab-close"></div>
+                <div class="fab-header" ng-style="{color: isColorLight(view.code.color2) ? 'black' : view.code.color2}" style="color: rgb(0, 0, 0);">Compartir página</div>
+                <ul class="ssk-block ssk-md" data-url="http://qrco.de/C0ntact?trackSharing=1" data-text="">
+                    <li>
+                        <i class="icon-fab-share-facebook"></i>
+                        <a href="" class="ssk ssk-text ssk-facebook">Facebook</a>
+                    </li>
+                    <li>
+                        <i class="icon-fab-share-twitter"></i>
+                        <a href="" class="ssk ssk-text ssk-twitter">Twitter</a>
+                    </li>
+                    <li>
+                        <i class="icon-fab-share-googleplus"></i>
+                        <a href="" class="ssk ssk-text ssk-google-plus">Google+</a>
+                    </li>
+                    <li>
+                        <i class="iconFab icon-fab-share-whatsapp"></i>
+                        <a href="whatsapp://send?text=http://qrco.de/C0ntact?trackSharing=1" class="ssk ssk-whatsapp">Whatsapp</a>
+                    </li>
+                    <li>
+                        <i class="icon-fab-share-email"></i>
+                        <a href="mailto:?body=http://qrco.de/C0ntact?trackSharing=1" target="_blank">Email</a>
+                    </li>
+                    <li>
+                        <i class="icon-fab-share-message"></i>
+                        <input id="shortUrl" value="http://qrco.de/C0ntact" readonly="readonly">
+                        <button id="copyButton">Copy</button>
+                        <div class="ifCopySucceed ng-hide" ng-show="ifCopySucceed">
+                            Texto copiado en el portapapeles.                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="prime" class="fab" ng-style="{background: view.code.color2 || '#ea4b88'}" ng-click="!loadDemo ?  '' : callAction($event,'shareAction')" style="background: rgb(0, 0, 0) none repeat scroll 0% 0%;">
+        <span class="hidden-xs" ng-style="{'color': isColorLight(view.code.color2) ? 'black' : 'white'}" style="color: white;">
+            <i class="prime icon icon-fab-share"></i>
+            Compartir esta página        </span>
+        <i class="prime icon icon-fab-share visible-xs" ng-style="{'color': isColorLight(view.code.color2) ? 'black' : 'white'}" style="color: white;"></i>
+    </a>
+</div></div>
+
+
+<div id="redirectTo">
+    <div class="fixed-blur-bgd">
+        <div class="dialog-container">
+            <div class="fab-body">
+                <div class="event-title">
+                    Continuar?                </div>
+                <div class="dialog-body">
+                    Usted será dirigido a otro sitio web.                </div>
+                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{'color': isColorLight(view.color2) ? 'black' : view.color2}" ng-click="dialogRedirectCallback(false)">
+                    No                </a>
+                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{'color': isColorLight(view.color2) ? 'black' : view.color2}" ng-click="dialogRedirectCallback(true)">
+                    Sí                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="gotIt">
+    <div class="fixed-blur-bgd">
+        <div class="dialog-container">
+            <div class="fab-body">
+                <div class="event-gotIt-button">
+                </div>
+                <div class="dialog-body pull-left ng-binding">
+                    
+                </div>
+                <a class="text-regular-blue mt-20" ng-click="closeDialog()">
+                    Entendido                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="eventOver">
+    <div class="fixed-blur-bgd">
+        <div class="dialog-container">
+            <div class="fab-body">
+                <div class="event-title">
+                    Evento ya transcurrido                </div>
+                <div class="dialog-body">
+                    Inscripción y venta de entradas cerradas para este evento.                </div>
+                <a class="event-slim-button ripplelink mt-10 pull-right" ng-style="{'color': isColorLight(view.color2) ? 'black' : view.color2}" ng-click="dialogRedirectCallback(true)">
+                    Cerrar                </a>
+            </div>
+        </div>
+    </div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="P%C3%A1gina%20de%20Redes%20Sociales%20Archivos/jquery.js"></script>
+<script type="text/javascript" src="P%C3%A1gina%20de%20Redes%20Sociales%20Archivos/angular.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+
+    /**
+     * Angular connection
+     */
+    app.loadBasePreviewController();
+
+
+    /**
+     * Replace a point with a space character
+     */
+    app.filter('point2space', function () {
+        return function (input) {
+            if (input) {
+                return input.replace(/\./g, ' ');
+            }
+        }
+    });
+
+    /**
+     * Return date in number format '1490189463876'
+     *
+     * @param input - date
+     * */
+    app.filter('toDay', function () {
+        return function (input) {
+            if (input) {
+                var result = new Date(input).getTime();
+                return result || '';
+            } else
+                return '';
+        };
+    });
+
+    /**
+     * Return value with '-' instead of spaces
+     *
+     * @param input - string
+     * */
+    app.filter('dashEncode', function () {
+        return function (input) {
+            if (input) {
+                return input.replace(/ /g, "-");
+            } else
+                return ' ';
+        };
+    });
+
+    /**
+     * Return escape value of param
+     *
+     * @param input - string
+     * */
+    app.filter('escape', function () {
+        return function (input) {
+            if (input) {
+                return escape(input);
+            } else
+                return ' ';
+        };
+    });
+
+    /**
+     * Return icon name based on the channel name
+     * */
+    app.filter('toIconName', function () {
+        return function (input) {
+            if (input) {
+                return input.replace(/\s+/g, '').toLowerCase();
+            } else
+                return ' ';
+        };
+    });
+
+    /**
+     * Return link with the correct prefix
+     * */
+    app.filter('prefixChannel', ['$filter', function ($filter) {
+        return function (input, name) {
+            if (input) {
+                switch (name) {
+                    case ('WhatsApp'):
+                        return 'https://wa.me/' + input.replace(/[\s()]/g, '');
+                        break;
+                    case ('Twitter'):
+                        return $filter('prefixURL')('www.twitter.com/' + input);
+                        break;
+                    case ('Instagram'):
+                        return $filter('prefixURL')('www.instagram.com/' + input);
+                        break;
+                    case ('Snapchat'):
+                        return $filter('prefixURL')('www.snapchat.com/add/' + input);
+                        break;
+                    case ('WeChat'):
+                        return 'weixin://dl/chat?' + input;
+                        break;
+                    case ('Skype'):
+                        return 'skype:' + input + '?chat';
+                        break;
+                    case ('Line'):
+                        return $filter('prefixURL')('https://line.me/R/ti/p/~' + input);
+                        break;
+                    default:
+                        return $filter('prefixURL')(input);
+                        break;
+                }
+            } else
+                return ' ';
+        };
+    }]);
+
+    /**
+     * Return domain of input
+     * */
+    app.filter('domain', function () {
+        return function (input) {
+            if (input.indexOf('://') >= 0) {
+                return input.split('/')[2]
+            }
+            return input.split('/')[0]
+        };
+    });
+
+    /**
+     * The QR service for the app.
+     * */
+    app.service('qr', function () {
+        /**
+         * Scroll page from buttom to top
+         * */
+        this.scrollFromBottomtoTop = function (loadDemo) {
+            setTimeout(function () {
+                if (loadDemo == true) {
+                    $("html, body").animate({
+                        scrollTop: $('.channel-container:last-child').offset().top
+                    }, 0)
+                    ;$("html, body").animate({
+                        scrollTop: 0
+                    }, 1000);
+                }
+            }, 0)
+        }
+    });
+
+    /**
+     * Directive
+     *
+     * When image is loaded fadeout welcome screen
+     * */
+    app.directive('imageonload', ['qr', function (qr) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                element.bind('load', function () {
+                    $("#welcomeImg").fadeIn(1000);
+                    window.setTimeout(function () {
+                        $(".loading-welcome.welcome-screen").fadeOut();
+                        scope.welcomeScreenScrollWindow++;
+                        if (scope.welcomeScreenScrollWindow == 1) {
+                            qr.scrollFromBottomtoTop(scope.loadDemo)
+                        }
+                    }, 2000);
+                });
+                element.bind('error', function () {
+                });
+            }
+        };
+    }]);
+    //Override the base preview controller
+    app.controller('ComplexController', function ($scope, $controller, $sce, $rootScope, $filter, previewService, $window) {
+
+            $scope.welcomeScreenScrollWindow = 0;
+            /**
+             * Get channel name from channel item
+             *
+             * @param channel
+             * */
+            $scope.getChannelLink = function (channel) {
+                if (!$scope.loadDemo) {
+                    return $filter('prefixChannel')(channel.link, channel.name);
+                }
+                return '#channel-item-' + channel.name;
+            };
+
+            /**
+             * Get channel name or link to the channel based on channel info
+             *
+             * @param channel
+             * */
+            $scope.getChannelNameOrLink = function (channel) {
+                if (channel.name == 'Website')
+                    if (channel.link) {
+                        return $scope.loadDemo ? channel.link : $filter('domain')(channel.link);
+                    } else {
+                        return channel.name;
+                    } else {
+                    return channel.name;
+                }
+            };
+
+            /**
+             * Set solid background for the header based on the title section height
+             * */
+            $scope.setSolidBgd = function () {
+                if ($scope.view.code) {
+                    var titleSectionHeight = 142;
+                    setTimeout(function () {
+                        if ($scope.view.code.teaser) {
+                            titleSectionHeight = $('.event-content-container').parent().outerHeight() + 60 + 128
+                        }
+                        else
+                            titleSectionHeight = $('.event-content-container').parent().outerHeight() + 60;
+                        $('.solid-bgd').css({
+                            'background-color': $scope.view.code.color1 ? $scope.view.code.color1 : '#447fb6',
+                            'height': !$scope.view.code.avatar ? titleSectionHeight + 'px' : '420px'
+                        })
+                    }, 0);
+                }
+            };
+
+            /**
+             * Open the dialog popup
+             * Event is for getting the current target element
+             * Target:
+             *      - shareAction: Button with got it information
+             *      - channelAction: Button with got it information
+             *
+             * @param event - string
+             * @param target - string
+             * */
+            $scope.callAction = function (event, target) {
+                switch (target) {
+                    case 'shareAction':
+                        if ($scope.loadDemo) {
+                            $scope.gotItText = 'Sus contactos pueden hacer clic en este botón para compartir su página.';
+                            $scope.toggleDialog('gotIt', $(event.currentTarget));
+                        }
+                        break;
+                    case 'channelAction':
+                        if ($scope.loadDemo) {
+                            $scope.gotItText = 'Al pulsar aquí, los usuarios serán direccionados a la red social o página web correspondiente.';
+                            $scope.toggleDialog('gotIt', $(event.currentTarget));
+                        }
+                        break;
+                }
+            };
+
+
+            /**
+             * Toggle dialog
+             *
+             * @param id - string
+             * @param element - current target
+             * */
+            $scope.toggleDialog = function (id, element) {
+                if (element) {
+                    var elem = element.context.outerHTML;
+                    $('#' + id + ' .dialog-container .event-gotIt-button').html(elem);
+                }
+                $($('#' + id).parent()).toggleClass('fabOnTop');
+                $('#' + id + ' .dialog-container').toggleClass('is-visible');
+                $('#prime.fab').toggleClass('disabledClick');
+                $('#' + id + ' .fixed-blur-bgd').toggle();
+            };
+
+            /**
+             * Callback of the dialog yes/no buttons
+             * Can close the dialog or it can redirect to a url and close the dialog
+             * If the url is not defined it will use the targetUrl from the callAction button
+             *
+             * @param proceed - string
+             * @param url - current target
+             * */
+            $scope.dialogRedirectCallback = function (proceed, url) {
+                if (proceed) {
+                    if (url) {
+                        $window.open(url, '_blank');
+                    } else {
+                        if ($scope.view.code.callToAction.targetUrl.indexOf('http') < 0)
+                            $window.open('//' + $scope.view.code.callToAction.targetUrl, '_blank');
+                        else
+                            $window.open($scope.view.code.callToAction.targetUrl, '_blank');
+                    }
+                    $scope.closeDialog();
+                } else {
+                    $scope.closeDialog();
+                }
+            };
+
+            /**
+             * Close dialog
+             *
+             * */
+            $scope.closeDialog = function () {
+                $('.dialog-container').removeClass('is-visible');
+                $('#prime.fab').toggleClass('disabledClick');
+                $('.event-gotIt-button').html('');
+                $('.fixed-blur-bgd').hide();
+            };
+
+
+            /**
+             * Set position of the fab Button
+             *If we have only one fab you have to use bottom 5px!!! else use 75px as default
+             * @param buttonName - string
+             * */
+            $scope.setPosition = function (buttonName) {
+                if ($(window).innerWidth() < 667) {
+                    var bottom = '5px',
+                        right = '17px';
+                    if (buttonName == 'calendar')
+                        bottom = '5px';
+                    if ($(window).innerWidth() < 321)
+                        right = '-85px';
+                    return {
+                        'position': 'fixed',
+                        'bottom': bottom,
+                        'right': right,
+                        'width': '80px'
+                    }
+                }
+                return '';
+            };
+
+            //Inherrit from basePreviewController
+            angular.extend(this, $controller('BasePreviewController', {$scope: $scope}));
+
+            $scope.loadDemo = parent && typeof parent.ImHere === "function";
+
+            //Get the json data form the file
+            json_data = {"form":[{"section_design":{"fold":false}},{"section_basic_info":{"fold":false}},{"section_media_channels":{"fold":false}},{"section_welcome_screen":{"fold":false}},{"section_advance_options":{"fold":true}}],"code":{"title":"Con\u00e9ctate con nosotros en las redes sociales","teaser":"S\u00edguenos y recibe actualizaciones en tu red social favorita.","channels":[{"input_prefix_label":"Phone","link":"5217772145887","label":"Envianos un mensaje","name":"WhatsApp"},{"input_prefix_label":"URL","link":"m.me\/GiStoreAcapulco","label":"Envianos un mensaje","name":"Messenger"},{"input_prefix_label":"URL","link":"https:\/\/www.facebook.com\/GiStoreAcapulco","label":"Siguenos en facebook","name":"Facebook"},{"input_prefix_label":"@","link":"gistoreacapulco","label":"Siguenos en Instagram","name":"Instagram"}],"color1":"#455a64","color2":"#000000","avatar":"\/\/qrcgcustomers.s3-eu-west-1.amazonaws.com\/account17929606\/24584971_1.png?0.7979538901022574","avatar_extra":{"zoom":100,"background":"#ffffff"},"welcome_extra":{"zoom":50,"background":"#ffffff"}},"showPreview":0,"welcome_screen":"\/\/qrcgcustomers.s3-eu-west-1.amazonaws.com\/account17929606\/24585093_1.png?0.9085793318547434","sharing":false};
+
+            //Upgrade old vcards created before 13.04 with show_directions parameter
+            if (angular.isUndefined(json_data.show_directions))
+                json_data.show_directions = true;
+
+            previewService.pushData(json_data);
+
+            function setAvatarBackgroundImage() {
+                if ($scope.view.code) {
+                    if ($scope.view.code.avatar)
+                        return {
+                            'background': 'url(' + $scope.view.code.avatar + ')'
+                        };
+                    else return {
+                        'height': '0px',
+                        'background': 'none'
+                    }
+                }
+            }
+
+            function getBackgroundColor() {
+                if ($scope.view.code) {
+                    var color1 = $scope.view.code.color1 || '#607d8b';
+                    if (!$scope.view.code.show_gradient)
+                        return {"background": color1};
+                }
+            }
+
+            $scope.getBackgroundColor = getBackgroundColor;
+            $scope.setAvatarBackgroundImage = setAvatarBackgroundImage;
+
+            window.setTimeout(function () {
+
+                $(".loading-vcard").fadeOut();
+                $(".vcard-functions-wrapper a:visible:last").addClass("last-element");
+            }, 500);
+
+            /**
+             * Copy short ulr to clipboard
+             *
+             * @param elem - input element with the link
+             * */
+            $scope.ifCopySucceed = false;
+            $scope.copyLinkToClipboard = function (elem) {
+                var targetId = "_hiddenCopyText_";
+                var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+                var origSelectionStart, origSelectionEnd;
+                if (isInput) {
+                    // can just use the original source element for the selection and copy
+                    target = elem;
+                    origSelectionStart = elem.selectionStart;
+                    origSelectionEnd = elem.selectionEnd;
+                } else {
+                    // must use a temporary form element for the selection and copy
+                    target = document.getElementById(targetId);
+                    if (!target) {
+                        var target = document.createElement("textarea");
+                        target.style.position = "absolute";
+                        target.style.left = "-9999px";
+                        target.style.top = "0";
+                        target.id = targetId;
+                        document.body.appendChild(target);
+                    }
+                    target.textContent = elem.textContent;
+                }
+                // select the content
+                var currentFocus = document.activeElement;
+                target.focus();
+                target.setSelectionRange(0, target.value.length);
+
+                // copy the selection
+                var succeed;
+                try {
+                    succeed = document.execCommand("copy");
+                } catch (e) {
+                    succeed = false;
+                }
+                // restore original focus
+                if (currentFocus && typeof currentFocus.focus === "function") {
+                    currentFocus.focus();
+                }
+
+                if (isInput) {
+                    // restore prior selection
+                    elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+                } else {
+                    // clear temporary content
+                    target.textContent = "";
+                }
+                $scope.$apply(function () {
+                    $scope.ifCopySucceed = succeed;
+                });
+                setTimeout(function () {
+                    $scope.$apply(function () {
+                        $scope.ifCopySucceed = false;
+                    });
+                }, 1500)
+            };
+
+            /**
+             * Set text color based on the background
+             *
+             * @param color - background color
+             * */
+            $scope.isColorLight = function (color) {
+                var c;
+                if (/^#([A-Fa-f0-9]{3}){1,2}$/.test(color)) {
+                    c = color.substring(1).split('');
+                    if (c.length == 3) {
+                        c = [c[0], c[0], c[1], c[1], c[2], c[2]];
+                    }
+                    c = '0x' + c.join('');
+
+                    var r = (c >> 16) & 255,
+                        g = (c >> 8) & 255,
+                        b = c & 255;
+                    // Counting the perceptive luminance
+                    // human eye favors green color...
+                    var a = 1 - (0.240 * r + 0.470 * g + 0.150 * b) / 255;
+                    return (a < 0.4);
+                }
+            };
+            /**
+             * Watch showPreview value
+             *
+             * @param p1 - new value
+             * @param p2 - old value
+             * */
+            $scope.$watch("view.showPreview", function (p1, p2, p3) {
+                if (p1 != undefined && p1 == 'infinite') {
+                    setTimeout(function () {
+                        $(".loading-welcome.welcome-screen").show();
+                        $("#welcomeImg").fadeIn(1000);
+                    }, 500)
+                } else if (p1 == undefined && p2 != undefined && p2 == 'infinite') {
+                    $("#welcomeImg").hide();
+                    $(".loading-welcome").fadeOut();
+                } else if ((p1 != undefined && p2 != undefined && p1 != p2) || (p1 != undefined && p1 != 0 && p2 == undefined && p1 != p2)) {
+                    setTimeout(function () {
+                        $(".loading-welcome.welcome-screen").show();
+                        $("#welcomeImg").hide();
+                        $("#welcomeImg").fadeIn(1000);
+                        setTimeout(function () {
+                            $(".loading-welcome").fadeOut();
+                        }, 2000)
+                    }, 500)
+                }
+            });
+
+            $scope.setAvatar = function () {
+                return {
+                    'background': $scope.view.code.avatar ? 'url(' + $scope.view.code.avatar + ')' : 'none'
+                }
+            };
+
+            /**
+             * Set avatar background with extra options like zoom and background color
+             * */
+            $scope.setAvatarExtra = function () {
+                var style = {};
+                if ($scope.view.code) {
+                    /*
+                    * Apply custom header image and background color
+                    * */
+                    if ($scope.view.code.customHeaderImage && $scope.view.code.customHeaderImage.url) {
+                        if ($scope.view.code.customHeaderImage.color != null) {
+                            style = {
+                                'background-color': $scope.view.code.customHeaderImage.color,
+                                '-webkit-mask': 'url("' + $scope.view.code.customHeaderImage.url + '") no-repeat 50% 50%',
+                                'mask': 'url("' + $scope.view.code.customHeaderImage.url + '") no-repeat 50% 50%',
+                                '-webkit-mask-size': 'cover',
+                                'mask-size':'cover'
+                            };
+                            $('.vcard-top-info.avatar-container').css('background-color', $scope.view.code.customHeaderImage.color);
+                        } else
+                            style = {
+                                'background-image': 'url("' + $scope.view.code.customHeaderImage.url + '")',
+                                'background-size': '100%'
+                            }
+                    }
+                    else if ($scope.view.code.avatar)
+                        style = {
+                            'background': 'url("' + $scope.view.code.avatar + '")',
+                            'background-size': '100%!important',
+                            'background-color': '#ffffff'
+                        };
+                    else
+                        style = {
+                            'height': '0px',
+                            'background': 'none'
+                        };
+                    if ($scope.view.code.avatar_extra) {
+                        style['background-size'] = $scope.view.code.avatar_extra.zoom + '%';
+                        if (!($scope.view.code.customHeaderImage && $scope.view.code.customHeaderImage.url && $scope.view.code.customHeaderImage.color != null)) {
+                            style['background-color'] = $scope.view.code.avatar_extra.background;
+                        }
+                    }
+                }
+                // Convert array to string to avoid problems with vendor prefixes.
+                var string_style = '';
+                angular.forEach(style, function (value, key) {
+                    string_style += key + ': ' + value + ';';
+                });
+                // Bad solution, but works (Alex).
+                $('.vcard-top-info.avatar-container').attr('style', string_style);
+                return {};
+            };
+
+            /**
+             * Watch avatarExtra values and set the css
+             * */
+            $scope.$watch('view.code.avatar_extra', function (newVal) {
+                if (newVal) {
+                    $('.avatar-container').css({
+                        'background-size': newVal.zoom + '%!important',
+                        'background-color': newVal.background,
+                        'background-position': 'center center'
+                    });
+                }
+            });
+
+            $(document).ready(function () {
+                /**
+                 * To work, function 'copyLinkToClipboard' needs to be called from an event listener on the copy button
+                 * */
+                document.getElementById("copyButton").addEventListener("click", function () {
+                    $scope.copyLinkToClipboard(document.getElementById("shortUrl"));
+                });
+            })
+
+        }
+    );
+
+    if (parent && typeof parent.ImHere === "function") {
+        parent.ImHere();
+    } else {
+        //Only load this on standalone pages not inframe working
+        SocialShareKit.init();
+    }
+
+    /**
+     * Toggle fab
+     *
+     * @param id - id of the fab
+     */
+    function toggleFab(id) {
+
+        $(id + ' .prime').toggleClass('is-active');
+        $(id + ' #prime').toggleClass('is-float');
+        $($(id).parent()).toggleClass('fabOnTop');
+        $('#prime.fab').toggleClass('disabledClick');
+        $(id + ' .fixed-blur-bgd').toggle();
+        $(id + ' .chat').toggleClass('is-visible');
+
+    }
+
+    $(document).ready(function () {
+
+        /**
+         * On window resize if width is bigger then tablet remove calendar and share mobile style
+         * */
+        $(window).resize(function () {
+            if (window.innerWidth >= 667) {
+                $('.follow-scroll.calendar-container').removeAttr('style');
+                $('.follow-scroll.share-container').removeAttr('style');
+            }
+        });
+
+        /**
+         * Close fab from close icon
+         * */
+        $('#prime, .icon-fab-close').click(function () {
+            var id = $($(this).closest('.fabs')).attr('id');
+            toggleFab('#' + id);
+        });
+
+        /**
+         * Close fab on blur bgd click
+         * */
+        $('.fixed-blur-bgd').click(function () {
+            if (event.target == $(this)[0]) {
+                $($("#prime.is-float").parent().parent()).removeClass('fabOnTop');
+                $('.prime').removeClass('is-active');
+                $('#prime').removeClass('is-float');
+                $('#prime.fab').removeClass('disabledClick');
+                $('.chat, .dialog-container').removeClass('is-visible');
+                $(this).hide();
+            }
+        });
+
+
+        /**
+         * Ripple effect on element
+         */
+        var ink, d, x, y;
+        $(".ripplelink").click(function (e) {
+            if ($(this).find(".ink").length === 0) {
+                $(this).prepend("<span class='ink'></span>");
+            }
+
+            ink = $(this).find(".ink");
+            ink.removeClass("animate");
+
+            if (!ink.height() && !ink.width()) {
+                d = Math.max($(this).outerWidth(), $(this).outerHeight());
+                ink.css({height: d, width: d});
+            }
+
+            x = e.pageX - $(this).offset().left - ink.width() / 2;
+            y = e.pageY - $(this).offset().top - ink.height() / 2;
+
+            ink.css({top: y + 'px', left: x + 'px'}).addClass("animate");
+        });
+    });
+
+
+/*]]>*/
+</script>
+
+
+
+
+</body></html>
